@@ -1,0 +1,622 @@
+============= Request =============
+Doing GET request to https://petfriends.skillfactory.ru/api/key
+Query parameter is not provided.
+Headers of request: {'email': 'kanabis_5@ka.bis', 'password': '1234567890'}
+============= Response =============
+Code of answer to response - <Response [200]>
+response body: {'key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing GET request to https://petfriends.skillfactory.ru/api/pets
+Parameters of path: filter=
+Headers of request: {'auth_key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Response =============
+Code of answer to response - <Response [200]>
+response body: {'pets': [{'age': '3', 'animal_type': 'оо', 'created_at': '1671432890.04388', 'id': '9064c3cf-7264-4b18-b5f1-951a82b0cb28', 'name': 'Tom', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '3', 'animal_type': 'оо', 'created_at': '1671432875.073221', 'id': 'cad153ee-4620-4d12-8a84-498033601a23', 'name': 'Tom', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '1', 'animal_type': 'Britan', 'created_at': '1671432127.5748794', 'id': '57c68e4c-160d-4650-99bd-cd69d4e342f5', 'name': 'Mr.Grey', 'pet_photo': ''}, {'age': '6', 'animal_type': 'дворовый', 'created_at': '1671431275.8491755', 'id': 'd8251eba-1819-48ee-b27d-dc97fefc75ba', 'name': 'Котовских', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '2', 'animal_type': 'crocodile', 'created_at': '1671430930.7985482', 'id': '0c472283-fc0d-4951-8b8e-3c53062ed4e1', 'name': 'Gosha', 'pet_photo': ''}, {'age': '2', 'animal_type': 'crocodile', 'created_at': '1671430513.5531821', 'id': '858dec42-7465-4068-8ea7-26a996c589a9', 'name': 'Gosha', 'pet_photo': ''}, {'age': '3', 'animal_type': 'собака', 'created_at': '1671428972.1638792', 'id': '7349869d-5809-4d87-9645-5f8f6b07126e', 'name': 'God', 'pet_photo': ''}, {'age': '11', 'animal_type': 'dog', 'created_at': '1671428971.3973877', 'id': '0165f9e3-1e62-45bc-9781-cc128498bec7', 'name': 'Ангел', 'pet_photo': ''}, {'age': '4', 'animal_type': 'овчарка', 'created_at': '1671428812.5616891', 'id': '36135d93-4b78-4a8c-8cce-4aecf5c025e6', 'name': 'Рэкс', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671428562.671691', 'id': 'd40dd867-c0f5-4023-9e4c-b0bd582f81d6', 'name': 'Vasa', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671428545.4388113', 'id': '723d9238-5d46-48e2-9e9a-d58b06249010', 'name': 'Vasa', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671428064.980119', 'id': '0094caa3-5ded-4dd5-8115-f7584934391f', 'name': 'ывыфвыв', 'pet_photo': ''}, {'age': '2', 'animal_type': 'tutu', 'created_at': '1671427306.7805898', 'id': '76e6779e-83c8-49b9-a5e4-b4847ae0658b', 'name': 'Murzik', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '2', 'animal_type': 'Scottish F', 'created_at': '1671427275.4296362', 'id': 'b5c7d9da-583d-4d01-9a8d-07842c0f4eff', 'name': 'Tom', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '2', 'animal_type': 'Rottweiler', 'created_at': '1671427192.8012707', 'id': '4af7c934-47e9-4e15-b184-a9c9037720d9', 'name': 'Archy', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '0', 'animal_type': 'попугай', 'created_at': '1671424288.8814924', 'id': '984f03da-85b4-49cd-8506-5c47f2151973', 'name': 'Петя', 'pet_photo': ''}, {'age': '1', 'animal_type': 'дворняга', 'created_at': '1671424216.6935089', 'id': '73099ad1-e7dc-4559-81c9-a5d0b16a915b', 'name': 'Киса', 'pet_photo': ''}, {'age': '7', 'animal_type': 'дворовый', 'created_at': '1671417226.428832', 'id': '7c909a1c-4ae2-436c-8099-8e9b4e691b5c', 'name': 'Котовски', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '1', 'animal_type': 'Персидская', 'created_at': '1671409315.6467772', 'id': '56c9c74d-84d1-4882-9b51-649703361966', 'name': 'Персик', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '132', 'animal_type': '1', 'created_at': '1671407645.1787639', 'id': '11beac7c-aabf-4c61-8619-8b5691c1e2df', 'name': '1', 'pet_photo': ''}, {'age': '1', 'animal_type': 'Персидская', 'created_at': '1671406626.635677', 'id': '6a95bf66-8a7d-4ea1-a564-b86bbfb83a4c', 'name': 'Персик', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '2222', 'animal_type': '22', 'created_at': '1671406559.782028', 'id': '96e66bcd-29c7-4196-9fae-bce3f18b5626', 'name': '2', 'pet_photo': ''}, {'age': '1,5', 'animal_type': 'Персидская', 'created_at': '1671403894.3570955', 'id': '8d0b327f-2907-4a16-ac8e-8ce4315f75b0', 'name': 'ПеРСиК', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '15', 'animal_type': 'Бык', 'created_at': '1671402454.090776', 'id': 'dc707891-8fc6-480f-9e70-a3d5cec1123f', 'name': 'Петя', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '10', 'animal_type': 'Пёс', 'created_at': '1671402435.5335982', 'id': 'd53eafb2-5f4a-4b3c-a881-2ed14c8e6b16', 'name': 'Вася', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '3', 'animal_type': '', 'created_at': '1671402121.7733834', 'id': 'fc48f2f2-b691-4f41-8567-2aff19af8379', 'name': 'Axel', 'pet_photo': ''}, {'age': '3', 'animal_type': '', 'created_at': '1671402120.9485617', 'id': '8a3107b0-400a-40f3-8731-2ae4f4e8106b', 'name': 'God', 'pet_photo': ''}, {'age': '11', 'animal_type': '', 'created_at': '1671402120.096263', 'id': 'b3bdddf1-0e3f-4ca7-a6b2-1ae414cdc79c', 'name': 'Ангел', 'pet_photo': ''}, {'age': '2', 'animal_type': 'Кот', 'created_at': '1671401536.866312', 'id': 'eca9afcf-5fa1-467b-8996-5880e91671c8', 'name': 'Филипп Дже', 'pet_photo': ''}, {'age': '3', 'animal_type': '', 'created_at': '1671401136.6244898', 'id': 'daf9725e-e480-471a-80ef-ea76efe8b702', 'name': 'Axel', 'pet_photo': ''}, {'age': '3', 'animal_type': '', 'created_at': '1671401135.90032', 'id': '8eedf63b-4cf7-4350-b8d5-36ee8789d253', 'name': 'God', 'pet_photo': ''}, {'age': '11', 'animal_type': '', 'created_at': '1671401135.181681', 'id': '6a3c2a47-3d14-499b-814b-fca2a38c86a4', 'name': 'Ангел', 'pet_photo': ''}, {'age': '2', 'animal_type': 'alabai', 'created_at': '1671400796.2833033', 'id': '8076fef5-c0d6-48b8-80e7-514ca660a90f', 'name': 'Rob', 'pet_photo': ''}, {'age': '5', 'animal_type': 'дворняга', 'created_at': '1671399478.5432725', 'id': 'a7fe49fa-3714-4aaf-beea-b1a2d08e7a09', 'name': 'Борис', 'pet_photo': ''}, {'age': '1', 'animal_type': 'неизвестны', 'created_at': '1671397334.9828353', 'id': '6abfeb6b-dbf5-4bfa-8d39-f97926cd2e17', 'name': 'Чебурашка', 'pet_photo': ''}, {'age': '', 'animal_type': '', 'created_at': '1671395480.1978784', 'id': 'db16b60a-8479-4638-ac1a-c99e7f07a08b', 'name': '', 'pet_photo': ''}, {'age': '3', 'animal_type': 'дворовый', 'created_at': '1671395476.949368', 'id': '1a3f9e50-5afc-4a66-b23e-e04e2e1f3490', 'name': 'Кабачок', 'pet_photo': ''}, {'age': '', 'animal_type': '', 'created_at': '1671395431.5598094', 'id': '5c1ed2e0-a0bb-4ab2-8419-ef13eebe087e', 'name': '', 'pet_photo': ''}, {'age': '1', 'animal_type': 'Персидская', 'created_at': '1671395374.6159208', 'id': '77f4346b-2345-4b71-b3de-ac17305b7efe', 'name': 'Персик', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '6', 'animal_type': 'Сурикат', 'created_at': '1671391985.5387545', 'id': '471a3005-b4e4-4c1e-9add-10d878ee745b', 'name': 'Тимон1', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '12', 'animal_type': 'доберка', 'created_at': '1671390729.760219', 'id': '12afe319-e989-44c9-bb74-6de0a876f248', 'name': 'Вилка', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '3', 'animal_type': 'оо', 'created_at': '1671389824.1443975', 'id': '5cd17982-67b8-4fac-bedc-0bde7a46208b', 'name': 'Tom', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '', 'animal_type': '', 'created_at': '1671388796.5126543', 'id': 'a6e334a0-1986-493d-ba25-f769fd6b7d01', 'name': '{{name}}', 'pet_photo': ''}, {'age': '5', 'animal_type': 'Котэ', 'created_at': '1671387702.3790298', 'id': '0846c57d-64a6-4cc9-a145-efcf29f31df6', 'name': 'Мурзик', 'pet_photo': ''}, {'age': '4', 'animal_type': 'двортерьер', 'created_at': '1671387546.399176', 'id': '139c980b-d3af-435a-96fc-52739b5f4b16', 'name': 'Барб12оски', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '4', 'animal_type': 'двортерьер', 'created_at': '1671386479.7145352', 'id': 'a66e524b-3fe1-4634-9287-2dcefce21c5a', 'name': 'Барб12оски', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '4', 'animal_type': 'двортерьер', 'created_at': '1671386216.1813772', 'id': '14b1fdbe-e7e9-4864-b64c-da6009b69662', 'name': 'Барб12оски', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '3', 'animal_type': 'сибирская', 'created_at': '1671385609.0613742', 'id': 'a74db4ec-c1af-465b-9208-112eda81c830', 'name': 'машка', 'pet_photo': ''}, {'age': '2', 'animal_type': 'домашний', 'created_at': '1671385586.1743164', 'id': '64ada8af-068e-4b86-9124-c1007b98ff1e', 'name': 'котя', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671385377.37725', 'id': 'd55f28ab-6465-49a4-b2b4-14acc529f247', 'name': 'Chip', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671385376.608029', 'id': '5ed13542-beee-4986-b696-131e53d9a0f6', 'name': 'Jerry', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671385375.6078167', 'id': '1140a60a-0ee5-49c4-b054-11ad8e083dc1', 'name': 'Garfield', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671385374.6310022', 'id': 'ff827f55-70c5-493c-968c-f4f4860f012a', 'name': 'Tom', 'pet_photo': ''}, {'age': '3', 'animal_type': 'дворовый', 'created_at': '1671384820.782157', 'id': '7c414c3e-45ea-422c-8f60-63f1b0324724', 'name': 'Евгений', 'pet_photo': ''}, {'age': '123', 'animal_type': 'Вуки', 'created_at': '1671384428.7120945', 'id': 'a6b171d2-6280-468e-9277-01dd3c793ff6', 'name': 'Чубакка', 'pet_photo': 'data:image/jpeg;base64'}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671384230.2877367', 'id': 'be589589-c687-4847-be90-dc2ca9d914b4', 'name': 'rfvdcccddd', 'pet_photo': ''}, {'age': '5', 'animal_type': 'кот', 'created_at': '1671384143.8042605', 'id': '234a6afc-96c2-493a-981f-b38ceb26a5a4', 'name': 'телепузичк', 'pet_photo': ''}, {'age': '1', 'animal_type': 'дворовый', 'created_at': '1671383656.0595245', 'id': 'af08f983-7726-4cfc-8379-09917e5d09c7', 'name': 'Женя', 'pet_photo': ''}, {'age': '0', 'animal_type': 'котик', 'created_at': '1671383636.057681', 'id': '97d00e9d-15d8-4de9-8146-6094ecfac082', 'name': 'телепупузи', 'pet_photo': ''}, {'age': '6', 'animal_type': 'британка', 'created_at': '1671383635.4696577', 'id': '088be229-d2e3-4813-90aa-d4e1116453f8', 'name': 'Маня', 'pet_photo': ''}, {'age': '2', 'animal_type': 'кот', 'created_at': '1671383598.9836948', 'id': '9f7a19a3-cba1-43a9-b702-a07460069873', 'name': 'карапузик', 'pet_photo': ''}, {'age': '5', 'animal_type': 'cat', 'created_at': '1671383020.320967', 'id': '977c067e-bbcd-4c0f-aff1-544d4950dd75', 'name': 'Jack', 'pet_photo': 'data:image/jpeg;base64'}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671382934.0578027', 'id': '3d970e86-fb5a-4358-86fe-ecedd51896bb', 'name': 'Djek', 'pet_photo': ''}, {'age': '2', 'animal_type': 'ааа', 'created_at': '1671382886.2390597', 'id': 'fd8b03ce-ce27-41a1-9aa5-216d7767d7cc', 'name': '<fixture.T', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '26', 'animal_type': 'крысёнок', 'created_at': '1671382847.7216756', 'id': 'd44f056a-2ee4-4dbc-be75-b55aab2fe0a2', 'name': 'Крысепупик', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '9', 'animal_type': 'Боксер', 'created_at': '1671381749.1606736', 'id': '301b1401-f6f7-40b4-a37c-5bdc4e5375c8', 'name': 'Айлин', 'pet_photo': 'data:image/jpeg;base64'}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671381638.6349905', 'id': '39605769-ca57-4aab-8ed2-cee2503a4064', 'name': 'rfvdcccddd', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671381637.629387', 'id': '3b938192-1bf7-468e-a9fa-cdd1ac27e8ae', 'name': 'Jerry', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671381636.74637', 'id': '9b9271f9-f98c-4866-a153-4c7919c949c9', 'name': 'Garfield', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671381635.9554079', 'id': '6e9c73a5-b542-4cdf-9897-a2b9829dbbc4', 'name': 'Tom', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671381525.1991744', 'id': 'd7dd9a6e-f480-4e29-a436-464c3498fe72', 'name': 'Djek', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671381524.4230428', 'id': '32796a06-58cc-4a7d-bd67-f3d8b71a4b8e', 'name': 'Djek', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671381523.3007054', 'id': '413d62eb-bb03-48d2-909e-907ab9ff885f', 'name': 'Djek', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671381522.541804', 'id': 'b9111a75-2e5c-4798-b85f-b58ab570c1e9', 'name': 'Djek', 'pet_photo': ''}, {'age': '1', 'animal_type': 'cat', 'created_at': '1671380893.66331', 'id': '52dd0399-11d9-4913-9444-043373fe4b42', 'name': 'Alex', 'pet_photo': ''}, {'age': '1', 'animal_type': 'dog', 'created_at': '1671380772.5373209', 'id': '67402638-4d70-4e27-b2e1-e622856059a4', 'name': 'Alex', 'pet_photo': ''}, {'age': '3', 'animal_type': 'cat', 'created_at': '1671380232.6308727', 'id': '119db349-5763-4e92-8551-717a6ff848f2', 'name': 'loyd', 'pet_photo': ''}, {'age': '11', 'animal_type': 'алабайs', 'created_at': '1671380175.567973', 'id': '81ef9014-4db5-462b-96f0-bbd632f74ae3', 'name': 'Шарикs', 'pet_photo': ''}, {'age': '2', 'animal_type': '', 'created_at': '1671380157.7038267', 'id': '35ee4252-d33b-45f2-9fcc-c61842610e07', 'name': '', 'pet_photo': ''}, {'age': '1', 'animal_type': 'dog', 'created_at': '1671380029.2661014', 'id': '3da1e284-4827-4871-bd45-57a1bc7ba593', 'name': 'Alex', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '1', 'animal_type': 'dog', 'created_at': '1671379637.8460999', 'id': '55c2912d-ca0d-4210-a677-74fac812d33d', 'name': 'Alex', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '7', 'animal_type': 'британская', 'created_at': '1671379571.194371', 'id': 'bb8e1e60-8047-4553-9abf-1a6e06656106', 'name': 'Нагетс', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '6', 'animal_type': 'Сурикат', 'created_at': '1671379070.945384', 'id': 'f946e55a-6b3d-4f20-9cb4-264f64bba61b', 'name': 'Тимон1', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '-5', 'animal_type': 'спаниель', 'created_at': '1671378972.0370467', 'id': 'c46a12c4-f73b-490b-8f6d-4ccbe2a70dbb', 'name': 'Тузикс', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '-5', 'animal_type': 'спаниель', 'created_at': '1671378968.5104525', 'id': '36ddcc72-6bf2-432d-840e-41602fe54b6b', 'name': 'Тузикс', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671377917.3744867', 'id': '3e38bf25-5ec9-4d13-8620-8ebb052fd9d6', 'name': 'Djek', 'pet_photo': ''}, {'age': '11', 'animal_type': 'алабайs', 'created_at': '1671377819.8277638', 'id': '3fb875b0-cccc-4c9e-960f-03bc3aa7f44d', 'name': 'Шарикs', 'pet_photo': 'data:image/jpeg;base64'}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671376788.183632', 'id': 'f0c6b261-7948-4b43-8eae-46699116e1da', 'name': 'Djek', 'pet_photo': ''}, {'age': '3', 'animal_type': 'Бобтейл', 'created_at': '1671375251.6646872', 'id': 'e11af3e6-a595-4451-b07d-f9c6ce6adfb5', 'name': 'кот3', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '1', 'animal_type': 'Бобтейл', 'created_at': '1671375223.020794', 'id': '69c95b1e-949f-4478-b670-e44be9488017', 'name': 'кот', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '1', 'animal_type': 'python', 'created_at': '1671374573.1720316', 'id': '004d6307-e8a4-4227-aca5-df616aeb0507', 'name': 'Yura_1', 'pet_photo': ''}, {'age': '', 'animal_type': '', 'created_at': '1671372332.6428752', 'id': '9ed8413a-4753-4a29-8982-485becb16e63', 'name': '', 'pet_photo': ''}, {'age': '', 'animal_type': '', 'created_at': '1671372332.555914', 'id': '286318a4-6d02-4469-b184-90f3172eca61', 'name': '', 'pet_photo': ''}, {'age': '4', 'animal_type': 'двортерьер', 'created_at': '1671371648.142136', 'id': '0e37917b-8ed3-4e76-883b-5c640def0a64', 'name': '的一是不了人我在有他', 'pet_photo': ''}, {'age': '4', 'animal_type': 'двортерьер', 'created_at': '1671371647.9120424', 'id': '4ae7a38e-29e6-4ff5-bc9f-ae2be094dcf8', 'name': 'АБВГДЕЁЖЗИ', 'pet_photo': ''}, {'age': '4', 'animal_type': 'двортерьер', 'created_at': '1671371647.668983', 'id': '3d978847-8598-41b2-a1c9-7bc3127e78b9', 'name': 'абвгдеёжзи', 'pet_photo': ''}, {'age': '4', 'animal_type': 'двортерьер', 'created_at': '1671371647.4408474', 'id': 'e1f8bcba-b135-4e04-baa3-45c389b92def', 'name': 'xxxxxxxxxx', 'pet_photo': ''}, {'age': '4', 'animal_type': 'двортерьер', 'created_at': '1671371647.195543', 'id': 'ed9fb3d2-4916-42b5-918f-51887b66be01', 'name': 'xxxxxxxxxx', 'pet_photo': ''}, {'age': '1', 'animal_type': 'Кот', 'created_at': '1671370432.6282005', 'id': '8dd111fc-1bb4-498a-bbe3-1fd9d82b037a', 'name': 'TestName', 'pet_photo': ''}, {'age': '的一是不', 'animal_type': 'Кот', 'created_at': '1671370432.3900688', 'id': 'd6cccff6-14b3-40a9-8514-7ed99347dbed', 'name': 'Шарик', 'pet_photo': ''}]}
+============= Request =============
+Doing GET request to https://petfriends.skillfactory.ru/api/key
+Query parameter is not provided.
+Headers of request: {'email': 'kanabis_5@ka.bis', 'password': '1234567890'}
+============= Response =============
+Code of answer to response - <Response [200]>
+response body: {'key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing POST request to https://petfriends.skillfactory.ru/api/create_pet_simple
+Headers of request: {'auth_key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655', 'Content-Type': 'multipart/form-data; boundary=08fc815dd421438eb71f8417de4aabf3'}
+Request body: <MultipartEncoder: {'name': 'Maxim', 'animal_type': 'python', 'age': '1'}>
+============= Response =============
+Code of answer to response - [200]
+Response body: {'_id': '', 'age': '1', 'animal_type': 'python', 'created_at': '1671433586.71505', 'id': 'af433336-2a07-47a0-b3fd-01250cb10758', 'name': 'Maxim', 'pet_photo': '', 'user_id': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing GET request to https://petfriends.skillfactory.ru/api/key
+Query parameter is not provided.
+Headers of request: {'email': 'kanabis_5@ka.bis', 'password': '1234567890'}
+============= Response =============
+Code of answer to response - <Response [200]>
+response body: {'key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing GET request to https://petfriends.skillfactory.ru/api/key
+Query parameter is not provided.
+Headers of request: {'email': 'kanabis_5@ka.bis', 'password': '1234567890'}
+============= Response =============
+Code of answer to response - <Response [200]>
+response body: {'key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing GET request to https://petfriends.skillfactory.ru/api/key
+Query parameter is not provided.
+Headers of request: {'email': 'kanabis_5@ka.bis', 'password': '1234567890'}
+============= Response =============
+Code of answer to response - <Response [200]>
+response body: {'key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing GET request to https://petfriends.skillfactory.ru/api/pets
+Parameters of path: filter=my_pets
+Headers of request: {'auth_key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Response =============
+Code of answer to response - <Response [200]>
+response body: {'pets': [{'age': '1', 'animal_type': 'python', 'created_at': '1671433586.71505', 'id': 'af433336-2a07-47a0-b3fd-01250cb10758', 'name': 'Maxim', 'pet_photo': ''}, {'age': '1', 'animal_type': 'pop', 'created_at': '1670633704.4768157', 'id': '8b8e0c5c-fcd9-4e68-86af-723221c0a6c2', 'name': 'Пес', 'pet_photo': ''}, {'age': '3', 'animal_type': 'snake', 'created_at': '1670633588.4979932', 'id': 'eaa8e5f9-ad0e-4b94-9cd7-ccb4b4c6fa22', 'name': 'Yan', 'pet_photo': ''}, {'age': '1', 'animal_type': 'pop', 'created_at': '1670633584.5105243', 'id': 'e02295a6-560e-4d86-8a4a-5373243eaeb9', 'name': 'Пес', 'pet_photo': ''}, {'age': '2', 'animal_type': 'шуршунчик', 'created_at': '1670633572.4821777', 'id': 'be8d1dc3-b442-434c-ab17-3ad5ef8786ac', 'name': 'Фуфырик', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '1', 'animal_type': 'кот', 'created_at': '1670633569.499254', 'id': '9f2335e5-644c-4e16-b179-92227ef82ab5', 'name': 'Сурик', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '10', 'animal_type': 'snake', 'created_at': '1670633567.5023923', 'id': 'b03c4b2a-6449-4ec3-ac05-0f8a1c2066a8', 'name': 'Gidropon', 'pet_photo': ''}, {'age': '3', 'animal_type': 'snake', 'created_at': '1670633424.5003934', 'id': '16ea403a-f215-467f-be60-971d3d768b37', 'name': 'Yan', 'pet_photo': ''}, {'age': '1', 'animal_type': 'pop', 'created_at': '1670633420.509302', 'id': 'f0178ef8-a97c-444c-ae2b-274042875ce8', 'name': 'Пес', 'pet_photo': ''}, {'age': '2', 'animal_type': 'шуршунчик', 'created_at': '1670633408.4645653', 'id': '26f1f217-4828-4ea1-bba8-33de87f1708d', 'name': 'Фуфырик', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '1', 'animal_type': 'кот', 'created_at': '1670633405.5660336', 'id': '10edb58a-0ef8-40a1-b60c-7c6f1055072e', 'name': 'Сурик', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '10', 'animal_type': 'snake', 'created_at': '1670633403.5101964', 'id': 'a5ecbabc-0144-4ecc-9076-c26cf38c8610', 'name': 'Gidropon', 'pet_photo': ''}]}
+============= Request =============
+Doing PUT request to https://petfriends.skillfactory.ru/api/pets/
+Headers of request: {'auth_key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655', 'Content-Type': 'multipart/form-data; boundary=e08a6d361f084812b208de91aad83110'}
+Parameters of request path pet_id: af433336-2a07-47a0-b3fd-01250cb10758
+Request body: <MultipartEncoder: {'name': 'Фуфырик', 'animal_type': 'шуршунчик', 'age': '2'}>
+============= Response =============
+Code of answer to response - <Response [200]>
+Response body: {'age': '2', 'animal_type': 'шуршунчик', 'created_at': '1671433586.71505', 'id': 'af433336-2a07-47a0-b3fd-01250cb10758', 'name': 'Фуфырик', 'pet_photo': '', 'user_id': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing GET request to https://petfriends.skillfactory.ru/api/key
+Query parameter is not provided.
+Headers of request: {'email': 'kanabis_5@ka.bis', 'password': '1234567890'}
+============= Response =============
+Code of answer to response - <Response [200]>
+response body: {'key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing GET request to https://petfriends.skillfactory.ru/api/key
+Query parameter is not provided.
+Headers of request: {'email': '66666666666666666@6666666.1', 'password': '1234567890'}
+============= Response =============
+Code of answer to response - <Response [403]>
+Response body: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>403 Forbidden</title>
+<h1>Forbidden</h1>
+<p>This user wasn&#x27;t found in database</p>
+
+============= Request =============
+Doing GET request to https://petfriends.skillfactory.ru/api/key
+Query parameter is not provided.
+Headers of request: {'email': 'kanabis_5@ka.bis', 'password': '1234567890'}
+============= Response =============
+Code of answer to response - <Response [200]>
+response body: {'key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing POST request to https://petfriends.skillfactory.ru/api/create_pet_simple
+Headers of request: {'auth_key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655', 'Content-Type': 'multipart/form-data; boundary=f3bd7470581d4902a345c4913ada0fe7'}
+Request body: <MultipartEncoder: {'name': 'Grundik', 'age': '5'}>
+============= Response =============
+Code of answer to response - [400]
+============= Request =============
+Doing POST request to https://petfriends.skillfactory.ru/api/create_pet_simple
+Headers of request: {'auth_key': 'Invalid_user', 'Content-Type': 'multipart/form-data; boundary=7d5fa078a35a434695e01e577b425254'}
+Request body: <MultipartEncoder: {'name': 'Lolik', 'animal_type': 'Слон', 'age': '4'}>
+============= Response =============
+Code of answer to response - [403]
+============= Request =============
+Doing GET request to https://petfriends.skillfactory.ru/api/key
+Query parameter is not provided.
+Headers of request: {'email': 'kanabis_5@ka.bis', 'password': '1234567890'}
+============= Response =============
+Code of answer to response - <Response [200]>
+response body: {'key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing GET request to https://petfriends.skillfactory.ru/api/key
+Query parameter is not provided.
+Headers of request: {'email': 'kanabis_5@ka.bis', 'password': '1234567890'}
+============= Response =============
+Code of answer to response - <Response [200]>
+response body: {'key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing POST request to https://petfriends.skillfactory.ru/api/create_pet_simple
+Headers of request: {'auth_key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655', 'Content-Type': 'multipart/form-data; boundary=860b30afd07a4942b11433455a2ab2e3'}
+Request body: <MultipartEncoder: {'name': 'Yan', 'animal_type': 'snake', 'age': '3'}>
+============= Response =============
+Code of answer to response - [200]
+Response body: {'_id': '', 'age': '3', 'animal_type': 'snake', 'created_at': '1671433599.389617', 'id': '0e47af44-6378-4a34-a8e5-2876a3d94a2f', 'name': 'Yan', 'pet_photo': '', 'user_id': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing GET request to https://petfriends.skillfactory.ru/api/key
+Query parameter is not provided.
+Headers of request: {'email': 'kanabis_5@ka.bis', 'password': '1234567890'}
+============= Response =============
+Code of answer to response - <Response [200]>
+response body: {'key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing GET request to https://petfriends.skillfactory.ru/api/pets
+Parameters of path: filter=
+Headers of request: {'auth_key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Response =============
+Code of answer to response - <Response [200]>
+response body: {'pets': [{'age': '3', 'animal_type': 'snake', 'created_at': '1671433599.389617', 'id': '0e47af44-6378-4a34-a8e5-2876a3d94a2f', 'name': 'Yan', 'pet_photo': ''}, {'age': '2', 'animal_type': 'шуршунчик', 'created_at': '1671433586.71505', 'id': 'af433336-2a07-47a0-b3fd-01250cb10758', 'name': 'Фуфырик', 'pet_photo': ''}, {'age': '3', 'animal_type': 'оо', 'created_at': '1671432890.04388', 'id': '9064c3cf-7264-4b18-b5f1-951a82b0cb28', 'name': 'Tom', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '3', 'animal_type': 'оо', 'created_at': '1671432875.073221', 'id': 'cad153ee-4620-4d12-8a84-498033601a23', 'name': 'Tom', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '1', 'animal_type': 'Britan', 'created_at': '1671432127.5748794', 'id': '57c68e4c-160d-4650-99bd-cd69d4e342f5', 'name': 'Mr.Grey', 'pet_photo': ''}, {'age': '6', 'animal_type': 'дворовый', 'created_at': '1671431275.8491755', 'id': 'd8251eba-1819-48ee-b27d-dc97fefc75ba', 'name': 'Котовских', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '2', 'animal_type': 'crocodile', 'created_at': '1671430930.7985482', 'id': '0c472283-fc0d-4951-8b8e-3c53062ed4e1', 'name': 'Gosha', 'pet_photo': ''}, {'age': '2', 'animal_type': 'crocodile', 'created_at': '1671430513.5531821', 'id': '858dec42-7465-4068-8ea7-26a996c589a9', 'name': 'Gosha', 'pet_photo': ''}, {'age': '3', 'animal_type': 'собака', 'created_at': '1671428972.1638792', 'id': '7349869d-5809-4d87-9645-5f8f6b07126e', 'name': 'God', 'pet_photo': ''}, {'age': '11', 'animal_type': 'dog', 'created_at': '1671428971.3973877', 'id': '0165f9e3-1e62-45bc-9781-cc128498bec7', 'name': 'Ангел', 'pet_photo': ''}, {'age': '4', 'animal_type': 'овчарка', 'created_at': '1671428812.5616891', 'id': '36135d93-4b78-4a8c-8cce-4aecf5c025e6', 'name': 'Рэкс', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671428562.671691', 'id': 'd40dd867-c0f5-4023-9e4c-b0bd582f81d6', 'name': 'Vasa', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671428545.4388113', 'id': '723d9238-5d46-48e2-9e9a-d58b06249010', 'name': 'Vasa', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671428064.980119', 'id': '0094caa3-5ded-4dd5-8115-f7584934391f', 'name': 'ывыфвыв', 'pet_photo': ''}, {'age': '2', 'animal_type': 'tutu', 'created_at': '1671427306.7805898', 'id': '76e6779e-83c8-49b9-a5e4-b4847ae0658b', 'name': 'Murzik', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '2', 'animal_type': 'Scottish F', 'created_at': '1671427275.4296362', 'id': 'b5c7d9da-583d-4d01-9a8d-07842c0f4eff', 'name': 'Tom', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '2', 'animal_type': 'Rottweiler', 'created_at': '1671427192.8012707', 'id': '4af7c934-47e9-4e15-b184-a9c9037720d9', 'name': 'Archy', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '0', 'animal_type': 'попугай', 'created_at': '1671424288.8814924', 'id': '984f03da-85b4-49cd-8506-5c47f2151973', 'name': 'Петя', 'pet_photo': ''}, {'age': '1', 'animal_type': 'дворняга', 'created_at': '1671424216.6935089', 'id': '73099ad1-e7dc-4559-81c9-a5d0b16a915b', 'name': 'Киса', 'pet_photo': ''}, {'age': '7', 'animal_type': 'дворовый', 'created_at': '1671417226.428832', 'id': '7c909a1c-4ae2-436c-8099-8e9b4e691b5c', 'name': 'Котовски', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '1', 'animal_type': 'Персидская', 'created_at': '1671409315.6467772', 'id': '56c9c74d-84d1-4882-9b51-649703361966', 'name': 'Персик', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '132', 'animal_type': '1', 'created_at': '1671407645.1787639', 'id': '11beac7c-aabf-4c61-8619-8b5691c1e2df', 'name': '1', 'pet_photo': ''}, {'age': '1', 'animal_type': 'Персидская', 'created_at': '1671406626.635677', 'id': '6a95bf66-8a7d-4ea1-a564-b86bbfb83a4c', 'name': 'Персик', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '2222', 'animal_type': '22', 'created_at': '1671406559.782028', 'id': '96e66bcd-29c7-4196-9fae-bce3f18b5626', 'name': '2', 'pet_photo': ''}, {'age': '1,5', 'animal_type': 'Персидская', 'created_at': '1671403894.3570955', 'id': '8d0b327f-2907-4a16-ac8e-8ce4315f75b0', 'name': 'ПеРСиК', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '15', 'animal_type': 'Бык', 'created_at': '1671402454.090776', 'id': 'dc707891-8fc6-480f-9e70-a3d5cec1123f', 'name': 'Петя', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '10', 'animal_type': 'Пёс', 'created_at': '1671402435.5335982', 'id': 'd53eafb2-5f4a-4b3c-a881-2ed14c8e6b16', 'name': 'Вася', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '3', 'animal_type': '', 'created_at': '1671402121.7733834', 'id': 'fc48f2f2-b691-4f41-8567-2aff19af8379', 'name': 'Axel', 'pet_photo': ''}, {'age': '3', 'animal_type': '', 'created_at': '1671402120.9485617', 'id': '8a3107b0-400a-40f3-8731-2ae4f4e8106b', 'name': 'God', 'pet_photo': ''}, {'age': '11', 'animal_type': '', 'created_at': '1671402120.096263', 'id': 'b3bdddf1-0e3f-4ca7-a6b2-1ae414cdc79c', 'name': 'Ангел', 'pet_photo': ''}, {'age': '2', 'animal_type': 'Кот', 'created_at': '1671401536.866312', 'id': 'eca9afcf-5fa1-467b-8996-5880e91671c8', 'name': 'Филипп Дже', 'pet_photo': ''}, {'age': '3', 'animal_type': '', 'created_at': '1671401136.6244898', 'id': 'daf9725e-e480-471a-80ef-ea76efe8b702', 'name': 'Axel', 'pet_photo': ''}, {'age': '3', 'animal_type': '', 'created_at': '1671401135.90032', 'id': '8eedf63b-4cf7-4350-b8d5-36ee8789d253', 'name': 'God', 'pet_photo': ''}, {'age': '11', 'animal_type': '', 'created_at': '1671401135.181681', 'id': '6a3c2a47-3d14-499b-814b-fca2a38c86a4', 'name': 'Ангел', 'pet_photo': ''}, {'age': '2', 'animal_type': 'alabai', 'created_at': '1671400796.2833033', 'id': '8076fef5-c0d6-48b8-80e7-514ca660a90f', 'name': 'Rob', 'pet_photo': ''}, {'age': '5', 'animal_type': 'дворняга', 'created_at': '1671399478.5432725', 'id': 'a7fe49fa-3714-4aaf-beea-b1a2d08e7a09', 'name': 'Борис', 'pet_photo': ''}, {'age': '1', 'animal_type': 'неизвестны', 'created_at': '1671397334.9828353', 'id': '6abfeb6b-dbf5-4bfa-8d39-f97926cd2e17', 'name': 'Чебурашка', 'pet_photo': ''}, {'age': '', 'animal_type': '', 'created_at': '1671395480.1978784', 'id': 'db16b60a-8479-4638-ac1a-c99e7f07a08b', 'name': '', 'pet_photo': ''}, {'age': '3', 'animal_type': 'дворовый', 'created_at': '1671395476.949368', 'id': '1a3f9e50-5afc-4a66-b23e-e04e2e1f3490', 'name': 'Кабачок', 'pet_photo': ''}, {'age': '', 'animal_type': '', 'created_at': '1671395431.5598094', 'id': '5c1ed2e0-a0bb-4ab2-8419-ef13eebe087e', 'name': '', 'pet_photo': ''}, {'age': '1', 'animal_type': 'Персидская', 'created_at': '1671395374.6159208', 'id': '77f4346b-2345-4b71-b3de-ac17305b7efe', 'name': 'Персик', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '6', 'animal_type': 'Сурикат', 'created_at': '1671391985.5387545', 'id': '471a3005-b4e4-4c1e-9add-10d878ee745b', 'name': 'Тимон1', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '12', 'animal_type': 'доберка', 'created_at': '1671390729.760219', 'id': '12afe319-e989-44c9-bb74-6de0a876f248', 'name': 'Вилка', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '3', 'animal_type': 'оо', 'created_at': '1671389824.1443975', 'id': '5cd17982-67b8-4fac-bedc-0bde7a46208b', 'name': 'Tom', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '', 'animal_type': '', 'created_at': '1671388796.5126543', 'id': 'a6e334a0-1986-493d-ba25-f769fd6b7d01', 'name': '{{name}}', 'pet_photo': ''}, {'age': '5', 'animal_type': 'Котэ', 'created_at': '1671387702.3790298', 'id': '0846c57d-64a6-4cc9-a145-efcf29f31df6', 'name': 'Мурзик', 'pet_photo': ''}, {'age': '4', 'animal_type': 'двортерьер', 'created_at': '1671387546.399176', 'id': '139c980b-d3af-435a-96fc-52739b5f4b16', 'name': 'Барб12оски', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '4', 'animal_type': 'двортерьер', 'created_at': '1671386479.7145352', 'id': 'a66e524b-3fe1-4634-9287-2dcefce21c5a', 'name': 'Барб12оски', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '4', 'animal_type': 'двортерьер', 'created_at': '1671386216.1813772', 'id': '14b1fdbe-e7e9-4864-b64c-da6009b69662', 'name': 'Барб12оски', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '3', 'animal_type': 'сибирская', 'created_at': '1671385609.0613742', 'id': 'a74db4ec-c1af-465b-9208-112eda81c830', 'name': 'машка', 'pet_photo': ''}, {'age': '2', 'animal_type': 'домашний', 'created_at': '1671385586.1743164', 'id': '64ada8af-068e-4b86-9124-c1007b98ff1e', 'name': 'котя', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671385377.37725', 'id': 'd55f28ab-6465-49a4-b2b4-14acc529f247', 'name': 'Chip', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671385376.608029', 'id': '5ed13542-beee-4986-b696-131e53d9a0f6', 'name': 'Jerry', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671385375.6078167', 'id': '1140a60a-0ee5-49c4-b054-11ad8e083dc1', 'name': 'Garfield', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671385374.6310022', 'id': 'ff827f55-70c5-493c-968c-f4f4860f012a', 'name': 'Tom', 'pet_photo': ''}, {'age': '3', 'animal_type': 'дворовый', 'created_at': '1671384820.782157', 'id': '7c414c3e-45ea-422c-8f60-63f1b0324724', 'name': 'Евгений', 'pet_photo': ''}, {'age': '123', 'animal_type': 'Вуки', 'created_at': '1671384428.7120945', 'id': 'a6b171d2-6280-468e-9277-01dd3c793ff6', 'name': 'Чубакка', 'pet_photo': 'data:image/jpeg;base64'}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671384230.2877367', 'id': 'be589589-c687-4847-be90-dc2ca9d914b4', 'name': 'rfvdcccddd', 'pet_photo': ''}, {'age': '5', 'animal_type': 'кот', 'created_at': '1671384143.8042605', 'id': '234a6afc-96c2-493a-981f-b38ceb26a5a4', 'name': 'телепузичк', 'pet_photo': ''}, {'age': '1', 'animal_type': 'дворовый', 'created_at': '1671383656.0595245', 'id': 'af08f983-7726-4cfc-8379-09917e5d09c7', 'name': 'Женя', 'pet_photo': ''}, {'age': '0', 'animal_type': 'котик', 'created_at': '1671383636.057681', 'id': '97d00e9d-15d8-4de9-8146-6094ecfac082', 'name': 'телепупузи', 'pet_photo': ''}, {'age': '6', 'animal_type': 'британка', 'created_at': '1671383635.4696577', 'id': '088be229-d2e3-4813-90aa-d4e1116453f8', 'name': 'Маня', 'pet_photo': ''}, {'age': '2', 'animal_type': 'кот', 'created_at': '1671383598.9836948', 'id': '9f7a19a3-cba1-43a9-b702-a07460069873', 'name': 'карапузик', 'pet_photo': ''}, {'age': '5', 'animal_type': 'cat', 'created_at': '1671383020.320967', 'id': '977c067e-bbcd-4c0f-aff1-544d4950dd75', 'name': 'Jack', 'pet_photo': 'data:image/jpeg;base64'}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671382934.0578027', 'id': '3d970e86-fb5a-4358-86fe-ecedd51896bb', 'name': 'Djek', 'pet_photo': ''}, {'age': '2', 'animal_type': 'ааа', 'created_at': '1671382886.2390597', 'id': 'fd8b03ce-ce27-41a1-9aa5-216d7767d7cc', 'name': '<fixture.T', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '26', 'animal_type': 'крысёнок', 'created_at': '1671382847.7216756', 'id': 'd44f056a-2ee4-4dbc-be75-b55aab2fe0a2', 'name': 'Крысепупик', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '9', 'animal_type': 'Боксер', 'created_at': '1671381749.1606736', 'id': '301b1401-f6f7-40b4-a37c-5bdc4e5375c8', 'name': 'Айлин', 'pet_photo': 'data:image/jpeg;base64'}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671381638.6349905', 'id': '39605769-ca57-4aab-8ed2-cee2503a4064', 'name': 'rfvdcccddd', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671381637.629387', 'id': '3b938192-1bf7-468e-a9fa-cdd1ac27e8ae', 'name': 'Jerry', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671381636.74637', 'id': '9b9271f9-f98c-4866-a153-4c7919c949c9', 'name': 'Garfield', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671381635.9554079', 'id': '6e9c73a5-b542-4cdf-9897-a2b9829dbbc4', 'name': 'Tom', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671381525.1991744', 'id': 'd7dd9a6e-f480-4e29-a436-464c3498fe72', 'name': 'Djek', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671381524.4230428', 'id': '32796a06-58cc-4a7d-bd67-f3d8b71a4b8e', 'name': 'Djek', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671381523.3007054', 'id': '413d62eb-bb03-48d2-909e-907ab9ff885f', 'name': 'Djek', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671381522.541804', 'id': 'b9111a75-2e5c-4798-b85f-b58ab570c1e9', 'name': 'Djek', 'pet_photo': ''}, {'age': '1', 'animal_type': 'cat', 'created_at': '1671380893.66331', 'id': '52dd0399-11d9-4913-9444-043373fe4b42', 'name': 'Alex', 'pet_photo': ''}, {'age': '1', 'animal_type': 'dog', 'created_at': '1671380772.5373209', 'id': '67402638-4d70-4e27-b2e1-e622856059a4', 'name': 'Alex', 'pet_photo': ''}, {'age': '3', 'animal_type': 'cat', 'created_at': '1671380232.6308727', 'id': '119db349-5763-4e92-8551-717a6ff848f2', 'name': 'loyd', 'pet_photo': ''}, {'age': '11', 'animal_type': 'алабайs', 'created_at': '1671380175.567973', 'id': '81ef9014-4db5-462b-96f0-bbd632f74ae3', 'name': 'Шарикs', 'pet_photo': ''}, {'age': '2', 'animal_type': '', 'created_at': '1671380157.7038267', 'id': '35ee4252-d33b-45f2-9fcc-c61842610e07', 'name': '', 'pet_photo': ''}, {'age': '1', 'animal_type': 'dog', 'created_at': '1671380029.2661014', 'id': '3da1e284-4827-4871-bd45-57a1bc7ba593', 'name': 'Alex', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '1', 'animal_type': 'dog', 'created_at': '1671379637.8460999', 'id': '55c2912d-ca0d-4210-a677-74fac812d33d', 'name': 'Alex', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '7', 'animal_type': 'британская', 'created_at': '1671379571.194371', 'id': 'bb8e1e60-8047-4553-9abf-1a6e06656106', 'name': 'Нагетс', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '6', 'animal_type': 'Сурикат', 'created_at': '1671379070.945384', 'id': 'f946e55a-6b3d-4f20-9cb4-264f64bba61b', 'name': 'Тимон1', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '-5', 'animal_type': 'спаниель', 'created_at': '1671378972.0370467', 'id': 'c46a12c4-f73b-490b-8f6d-4ccbe2a70dbb', 'name': 'Тузикс', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '-5', 'animal_type': 'спаниель', 'created_at': '1671378968.5104525', 'id': '36ddcc72-6bf2-432d-840e-41602fe54b6b', 'name': 'Тузикс', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671377917.3744867', 'id': '3e38bf25-5ec9-4d13-8620-8ebb052fd9d6', 'name': 'Djek', 'pet_photo': ''}, {'age': '11', 'animal_type': 'алабайs', 'created_at': '1671377819.8277638', 'id': '3fb875b0-cccc-4c9e-960f-03bc3aa7f44d', 'name': 'Шарикs', 'pet_photo': 'data:image/jpeg;base64'}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671376788.183632', 'id': 'f0c6b261-7948-4b43-8eae-46699116e1da', 'name': 'Djek', 'pet_photo': ''}, {'age': '3', 'animal_type': 'Бобтейл', 'created_at': '1671375251.6646872', 'id': 'e11af3e6-a595-4451-b07d-f9c6ce6adfb5', 'name': 'кот3', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '1', 'animal_type': 'Бобтейл', 'created_at': '1671375223.020794', 'id': '69c95b1e-949f-4478-b670-e44be9488017', 'name': 'кот', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '1', 'animal_type': 'python', 'created_at': '1671374573.1720316', 'id': '004d6307-e8a4-4227-aca5-df616aeb0507', 'name': 'Yura_1', 'pet_photo': ''}, {'age': '', 'animal_type': '', 'created_at': '1671372332.6428752', 'id': '9ed8413a-4753-4a29-8982-485becb16e63', 'name': '', 'pet_photo': ''}, {'age': '', 'animal_type': '', 'created_at': '1671372332.555914', 'id': '286318a4-6d02-4469-b184-90f3172eca61', 'name': '', 'pet_photo': ''}, {'age': '4', 'animal_type': 'двортерьер', 'created_at': '1671371648.142136', 'id': '0e37917b-8ed3-4e76-883b-5c640def0a64', 'name': '的一是不了人我在有他', 'pet_photo': ''}, {'age': '4', 'animal_type': 'двортерьер', 'created_at': '1671371647.9120424', 'id': '4ae7a38e-29e6-4ff5-bc9f-ae2be094dcf8', 'name': 'АБВГДЕЁЖЗИ', 'pet_photo': ''}, {'age': '4', 'animal_type': 'двортерьер', 'created_at': '1671371647.668983', 'id': '3d978847-8598-41b2-a1c9-7bc3127e78b9', 'name': 'абвгдеёжзи', 'pet_photo': ''}, {'age': '4', 'animal_type': 'двортерьер', 'created_at': '1671371647.4408474', 'id': 'e1f8bcba-b135-4e04-baa3-45c389b92def', 'name': 'xxxxxxxxxx', 'pet_photo': ''}, {'age': '4', 'animal_type': 'двортерьер', 'created_at': '1671371647.195543', 'id': 'ed9fb3d2-4916-42b5-918f-51887b66be01', 'name': 'xxxxxxxxxx', 'pet_photo': ''}]}
+============= Request =============
+Doing GET request to https://petfriends.skillfactory.ru/api/key
+Query parameter is not provided.
+Headers of request: {'email': 'kanabis_5@ka.bis', 'password': '1234567890'}
+============= Response =============
+Code of answer to response - <Response [200]>
+response body: {'key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing POST request to https://petfriends.skillfactory.ru/api/create_pet_simple
+Headers of request: {'auth_key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655', 'Content-Type': 'multipart/form-data; boundary=0e6d27325bff4752903c9fb2d9c1fef1'}
+Request body: <MultipartEncoder: {'name': 'Maxim', 'animal_type': 'python', 'age': '1'}>
+============= Response =============
+Code of answer to response - [200]
+Response body: {'_id': '', 'age': '1', 'animal_type': 'python', 'created_at': '1671433804.567119', 'id': '01033b4d-6375-4ae8-bfbb-25f5abd4ed5a', 'name': 'Maxim', 'pet_photo': '', 'user_id': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing GET request to https://petfriends.skillfactory.ru/api/key
+Query parameter is not provided.
+Headers of request: {'email': 'kanabis_5@ka.bis', 'password': '1234567890'}
+============= Response =============
+Code of answer to response - <Response [200]>
+response body: {'key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing POST request to https://petfriends.skillfactory.ru/api/pets
+Headers of request: {'auth_key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655', 'Content-Type': 'multipart/form-data; boundary=fc509761108a46fdbe838ca8142760af'}
+Request body: <MultipartEncoder: {'name': 'Сурик', 'animal_type': 'кот', 'age': '1', 'pet_photo': ('/home/user/PycharmProjects/PetFriendAutoTestFix/tests/../images/111.jpeg', <_io.BufferedReader name='/home/user/PycharmProjects/PetFriendAutoTestFix/tests/../images/111.jpeg'>, 'image/jpeg')}>
+============= Response =============
+Code of answer to response - [200]
+Response body: {'_id': '', 'age': '1', 'animal_type': 'кот', 'created_at': '1671433806.3922482', 'id': '0151d31f-c4ee-423b-a3c0-593138e19643', 'name': 'Сурик', 'pet_photo': 'data:image/jpeg;base64', 'user_id': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing POST request to https://petfriends.skillfactory.ru/api/pets/set_photo/0151d31f-c4ee-423b-a3c0-593138e19643
+Headers of request: {'auth_key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655', 'Content-Type': 'multipart/form-data; boundary=f1527de4e2454d99a19de7080047fc1f'}
+Request body: <MultipartEncoder: {'pet_id': '0151d31f-c4ee-423b-a3c0-593138e19643', 'pet_photo': ('/home/user/PycharmProjects/PetFriendAutoTestFix/tests/../images/111.jpeg', <_io.BufferedReader name='/home/user/PycharmProjects/PetFriendAutoTestFix/tests/../images/111.jpeg'>, 'image/jpeg')}>
+============= Response =============
+Code of answer to response - [200]
+Response body: {'_id': '', 'age': '1', 'animal_type': 'кот', 'created_at': '1671433806.3922482', 'id': '0151d31f-c4ee-423b-a3c0-593138e19643', 'name': 'Сурик', 'pet_photo': 'data:image/jpeg;base64', 'user_id': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing GET request to https://petfriends.skillfactory.ru/api/key
+Query parameter is not provided.
+Headers of request: {'email': 'kanabis_5@ka.bis', 'password': '1234567890'}
+============= Response =============
+Code of answer to response - <Response [200]>
+response body: {'key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing POST request to https://petfriends.skillfactory.ru/api/pets
+Headers of request: {'auth_key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655', 'Content-Type': 'multipart/form-data; boundary=4c512cc7e8c64ae58d254f9f183cf25a'}
+Request body: <MultipartEncoder: {'name': 'Alon', 'animal_type': 'Creep', 'age': '3', 'pet_photo': ('/home/user/PycharmProjects/PetFriendAutoTestFix/tests/../images/111.jpeg', <_io.BufferedReader name='/home/user/PycharmProjects/PetFriendAutoTestFix/tests/../images/111.jpeg'>, 'image/jpeg')}>
+============= Response =============
+Code of answer to response - [200]
+Response body: {'_id': '', 'age': '3', 'animal_type': 'Creep', 'created_at': '1671433809.7362475', 'id': '2ad1e3c2-a14f-4a44-9bad-ea40956a336a', 'name': 'Alon', 'pet_photo': 'data:image/jpeg;base64', 'user_id': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing GET request to https://petfriends.skillfactory.ru/api/key
+Query parameter is not provided.
+Headers of request: {'email': 'kanabis_5@ka.bis', 'password': '1234567890'}
+============= Response =============
+Code of answer to response - <Response [200]>
+response body: {'key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing GET request to https://petfriends.skillfactory.ru/api/pets
+Parameters of path: filter=my_pets
+Headers of request: {'auth_key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Response =============
+Code of answer to response - <Response [200]>
+response body: {'pets': [{'age': '3', 'animal_type': 'Creep', 'created_at': '1671433809.7362475', 'id': '2ad1e3c2-a14f-4a44-9bad-ea40956a336a', 'name': 'Alon', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '1', 'animal_type': 'кот', 'created_at': '1671433806.3922482', 'id': '0151d31f-c4ee-423b-a3c0-593138e19643', 'name': 'Сурик', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '1', 'animal_type': 'python', 'created_at': '1671433804.567119', 'id': '01033b4d-6375-4ae8-bfbb-25f5abd4ed5a', 'name': 'Maxim', 'pet_photo': ''}, {'age': '3', 'animal_type': 'snake', 'created_at': '1671433599.389617', 'id': '0e47af44-6378-4a34-a8e5-2876a3d94a2f', 'name': 'Yan', 'pet_photo': ''}, {'age': '2', 'animal_type': 'шуршунчик', 'created_at': '1671433586.71505', 'id': 'af433336-2a07-47a0-b3fd-01250cb10758', 'name': 'Фуфырик', 'pet_photo': ''}, {'age': '1', 'animal_type': 'pop', 'created_at': '1670633704.4768157', 'id': '8b8e0c5c-fcd9-4e68-86af-723221c0a6c2', 'name': 'Пес', 'pet_photo': ''}, {'age': '3', 'animal_type': 'snake', 'created_at': '1670633588.4979932', 'id': 'eaa8e5f9-ad0e-4b94-9cd7-ccb4b4c6fa22', 'name': 'Yan', 'pet_photo': ''}, {'age': '1', 'animal_type': 'pop', 'created_at': '1670633584.5105243', 'id': 'e02295a6-560e-4d86-8a4a-5373243eaeb9', 'name': 'Пес', 'pet_photo': ''}, {'age': '2', 'animal_type': 'шуршунчик', 'created_at': '1670633572.4821777', 'id': 'be8d1dc3-b442-434c-ab17-3ad5ef8786ac', 'name': 'Фуфырик', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '1', 'animal_type': 'кот', 'created_at': '1670633569.499254', 'id': '9f2335e5-644c-4e16-b179-92227ef82ab5', 'name': 'Сурик', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '10', 'animal_type': 'snake', 'created_at': '1670633567.5023923', 'id': 'b03c4b2a-6449-4ec3-ac05-0f8a1c2066a8', 'name': 'Gidropon', 'pet_photo': ''}, {'age': '3', 'animal_type': 'snake', 'created_at': '1670633424.5003934', 'id': '16ea403a-f215-467f-be60-971d3d768b37', 'name': 'Yan', 'pet_photo': ''}, {'age': '1', 'animal_type': 'pop', 'created_at': '1670633420.509302', 'id': 'f0178ef8-a97c-444c-ae2b-274042875ce8', 'name': 'Пес', 'pet_photo': ''}, {'age': '2', 'animal_type': 'шуршунчик', 'created_at': '1670633408.4645653', 'id': '26f1f217-4828-4ea1-bba8-33de87f1708d', 'name': 'Фуфырик', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '1', 'animal_type': 'кот', 'created_at': '1670633405.5660336', 'id': '10edb58a-0ef8-40a1-b60c-7c6f1055072e', 'name': 'Сурик', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '10', 'animal_type': 'snake', 'created_at': '1670633403.5101964', 'id': 'a5ecbabc-0144-4ecc-9076-c26cf38c8610', 'name': 'Gidropon', 'pet_photo': ''}]}
+============= Request =============
+Doing PUT request to https://petfriends.skillfactory.ru/api/pets/
+Headers of request: {'auth_key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655', 'Content-Type': 'multipart/form-data; boundary=9ced59018d854f90881c7f67605c0dc4'}
+Parameters of request path pet_id: 2ad1e3c2-a14f-4a44-9bad-ea40956a336a
+Request body: <MultipartEncoder: {'name': 'Фуфырик', 'animal_type': 'шуршунчик', 'age': '2'}>
+============= Response =============
+Code of answer to response - <Response [200]>
+Response body: {'age': '2', 'animal_type': 'шуршунчик', 'created_at': '1671433809.7362475', 'id': '2ad1e3c2-a14f-4a44-9bad-ea40956a336a', 'name': 'Фуфырик', 'pet_photo': 'data:image/jpeg;base64', 'user_id': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing GET request to https://petfriends.skillfactory.ru/api/key
+Query parameter is not provided.
+Headers of request: {'email': 'kanabis_5@ka.bis', 'password': '1234567890'}
+============= Response =============
+Code of answer to response - <Response [200]>
+response body: {'key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing POST request to https://petfriends.skillfactory.ru/api/pets
+Headers of request: {'auth_key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655', 'Content-Type': 'multipart/form-data; boundary=2a6a0a288a3b4550b0ee5b66e5e549fd'}
+Request body: <MultipartEncoder: {'name': 'Puzik', 'animal_type': 'cat', 'age': '1', 'pet_photo': ('/home/user/PycharmProjects/PetFriendAutoTestFix/tests/../images/111.jpeg', <_io.BufferedReader name='/home/user/PycharmProjects/PetFriendAutoTestFix/tests/../images/111.jpeg'>, 'image/jpeg')}>
+============= Response =============
+Code of answer to response - [200]
+Response body: {'_id': '', 'age': '1', 'animal_type': 'cat', 'created_at': '1671433814.4217951', 'id': 'ddfb0ea0-f0f3-4318-b2fb-ffdf38eaaa23', 'name': 'Puzik', 'pet_photo': 'data:image/jpeg;base64', 'user_id': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+Doing DELETE response to https://petfriends.skillfactory.ru/api/pets/
+Headers of request: {'auth_key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+Parameter of path request pet_id: ddfb0ea0-f0f3-4318-b2fb-ffdf38eaaa23
+Code of answer to request- <Response [200]>
+============= Request =============
+Doing GET request to https://petfriends.skillfactory.ru/api/key
+Query parameter is not provided.
+Headers of request: {'email': '66666666666666666@6666666.1', 'password': '1234567890'}
+============= Response =============
+Code of answer to response - <Response [403]>
+Response body: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>403 Forbidden</title>
+<h1>Forbidden</h1>
+<p>This user wasn&#x27;t found in database</p>
+
+============= Request =============
+Doing GET request to https://petfriends.skillfactory.ru/api/key
+Query parameter is not provided.
+Headers of request: {'email': 'kanabis_5@ka.bis', 'password': '1234567890'}
+============= Response =============
+Code of answer to response - <Response [200]>
+response body: {'key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing POST request to https://petfriends.skillfactory.ru/api/create_pet_simple
+Headers of request: {'auth_key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655', 'Content-Type': 'multipart/form-data; boundary=a1123fb335d94ac09494d31d3934e29c'}
+Request body: <MultipartEncoder: {'name': 'Grundik', 'age': '5'}>
+============= Response =============
+Code of answer to response - [400]
+============= Request =============
+Doing POST request to https://petfriends.skillfactory.ru/api/create_pet_simple
+Headers of request: {'auth_key': 'Invalid_user', 'Content-Type': 'multipart/form-data; boundary=8003466ed3554c419562dba0091c4b20'}
+Request body: <MultipartEncoder: {'name': 'Lolik', 'animal_type': 'Слон', 'age': '4'}>
+============= Response =============
+Code of answer to response - [403]
+============= Request =============
+Doing GET request to https://petfriends.skillfactory.ru/api/key
+Query parameter is not provided.
+Headers of request: {'email': 'kanabis_5@ka.bis', 'password': '1234567890'}
+============= Response =============
+Code of answer to response - <Response [200]>
+response body: {'key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing POST request to https://petfriends.skillfactory.ru/api/pets
+Headers of request: {'auth_key': 'Invalid_user', 'Content-Type': 'multipart/form-data; boundary=c12a5ca2021a4173a961e182bc323b21'}
+Request body: <MultipartEncoder: {'name': 'LLLo', 'animal_type': 'nitka', 'age': '1', 'pet_photo': ('/home/user/PycharmProjects/PetFriendAutoTestFix/tests/../images/111.jpeg', <_io.BufferedReader name='/home/user/PycharmProjects/PetFriendAutoTestFix/tests/../images/111.jpeg'>, 'image/jpeg')}>
+============= Response =============
+Code of answer to response - [403]
+============= Request =============
+Doing GET request to https://petfriends.skillfactory.ru/api/key
+Query parameter is not provided.
+Headers of request: {'email': 'kanabis_5@ka.bis', 'password': '1234567890'}
+============= Response =============
+Code of answer to response - <Response [200]>
+response body: {'key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing POST request to https://petfriends.skillfactory.ru/api/create_pet_simple
+Headers of request: {'auth_key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655', 'Content-Type': 'multipart/form-data; boundary=c7e3e1264e1f4a57a3dd26b2e2b974e0'}
+Request body: <MultipartEncoder: {'name': 'Yan', 'animal_type': 'snake', 'age': '3'}>
+============= Response =============
+Code of answer to response - [200]
+Response body: {'_id': '', 'age': '3', 'animal_type': 'snake', 'created_at': '1671433823.5045352', 'id': '274c6c62-a4ff-4983-b481-9d12c4763813', 'name': 'Yan', 'pet_photo': '', 'user_id': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing GET request to https://petfriends.skillfactory.ru/api/key
+Query parameter is not provided.
+Headers of request: {'email': 'kanabis_5@ka.bis', 'password': '1234567890'}
+============= Response =============
+Code of answer to response - <Response [200]>
+response body: {'key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing GET request to https://petfriends.skillfactory.ru/api/pets
+Parameters of path: filter=
+Headers of request: {'auth_key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Response =============
+Code of answer to response - <Response [200]>
+response body: {'pets': [{'age': '3', 'animal_type': 'snake', 'created_at': '1671433823.5045352', 'id': '274c6c62-a4ff-4983-b481-9d12c4763813', 'name': 'Yan', 'pet_photo': ''}, {'age': '2', 'animal_type': 'шуршунчик', 'created_at': '1671433809.7362475', 'id': '2ad1e3c2-a14f-4a44-9bad-ea40956a336a', 'name': 'Фуфырик', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '1', 'animal_type': 'кот', 'created_at': '1671433806.3922482', 'id': '0151d31f-c4ee-423b-a3c0-593138e19643', 'name': 'Сурик', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '1', 'animal_type': 'python', 'created_at': '1671433804.567119', 'id': '01033b4d-6375-4ae8-bfbb-25f5abd4ed5a', 'name': 'Maxim', 'pet_photo': ''}, {'age': '3', 'animal_type': 'snake', 'created_at': '1671433599.389617', 'id': '0e47af44-6378-4a34-a8e5-2876a3d94a2f', 'name': 'Yan', 'pet_photo': ''}, {'age': '2', 'animal_type': 'шуршунчик', 'created_at': '1671433586.71505', 'id': 'af433336-2a07-47a0-b3fd-01250cb10758', 'name': 'Фуфырик', 'pet_photo': ''}, {'age': '3', 'animal_type': 'оо', 'created_at': '1671432890.04388', 'id': '9064c3cf-7264-4b18-b5f1-951a82b0cb28', 'name': 'Tom', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '3', 'animal_type': 'оо', 'created_at': '1671432875.073221', 'id': 'cad153ee-4620-4d12-8a84-498033601a23', 'name': 'Tom', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '1', 'animal_type': 'Britan', 'created_at': '1671432127.5748794', 'id': '57c68e4c-160d-4650-99bd-cd69d4e342f5', 'name': 'Mr.Grey', 'pet_photo': ''}, {'age': '6', 'animal_type': 'дворовый', 'created_at': '1671431275.8491755', 'id': 'd8251eba-1819-48ee-b27d-dc97fefc75ba', 'name': 'Котовских', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '2', 'animal_type': 'crocodile', 'created_at': '1671430930.7985482', 'id': '0c472283-fc0d-4951-8b8e-3c53062ed4e1', 'name': 'Gosha', 'pet_photo': ''}, {'age': '2', 'animal_type': 'crocodile', 'created_at': '1671430513.5531821', 'id': '858dec42-7465-4068-8ea7-26a996c589a9', 'name': 'Gosha', 'pet_photo': ''}, {'age': '3', 'animal_type': 'собака', 'created_at': '1671428972.1638792', 'id': '7349869d-5809-4d87-9645-5f8f6b07126e', 'name': 'God', 'pet_photo': ''}, {'age': '11', 'animal_type': 'dog', 'created_at': '1671428971.3973877', 'id': '0165f9e3-1e62-45bc-9781-cc128498bec7', 'name': 'Ангел', 'pet_photo': ''}, {'age': '4', 'animal_type': 'овчарка', 'created_at': '1671428812.5616891', 'id': '36135d93-4b78-4a8c-8cce-4aecf5c025e6', 'name': 'Рэкс', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671428562.671691', 'id': 'd40dd867-c0f5-4023-9e4c-b0bd582f81d6', 'name': 'Vasa', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671428545.4388113', 'id': '723d9238-5d46-48e2-9e9a-d58b06249010', 'name': 'Vasa', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671428064.980119', 'id': '0094caa3-5ded-4dd5-8115-f7584934391f', 'name': 'ывыфвыв', 'pet_photo': ''}, {'age': '2', 'animal_type': 'tutu', 'created_at': '1671427306.7805898', 'id': '76e6779e-83c8-49b9-a5e4-b4847ae0658b', 'name': 'Murzik', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '2', 'animal_type': 'Scottish F', 'created_at': '1671427275.4296362', 'id': 'b5c7d9da-583d-4d01-9a8d-07842c0f4eff', 'name': 'Tom', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '2', 'animal_type': 'Rottweiler', 'created_at': '1671427192.8012707', 'id': '4af7c934-47e9-4e15-b184-a9c9037720d9', 'name': 'Archy', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '0', 'animal_type': 'попугай', 'created_at': '1671424288.8814924', 'id': '984f03da-85b4-49cd-8506-5c47f2151973', 'name': 'Петя', 'pet_photo': ''}, {'age': '1', 'animal_type': 'дворняга', 'created_at': '1671424216.6935089', 'id': '73099ad1-e7dc-4559-81c9-a5d0b16a915b', 'name': 'Киса', 'pet_photo': ''}, {'age': '7', 'animal_type': 'дворовый', 'created_at': '1671417226.428832', 'id': '7c909a1c-4ae2-436c-8099-8e9b4e691b5c', 'name': 'Котовски', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '1', 'animal_type': 'Персидская', 'created_at': '1671409315.6467772', 'id': '56c9c74d-84d1-4882-9b51-649703361966', 'name': 'Персик', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '132', 'animal_type': '1', 'created_at': '1671407645.1787639', 'id': '11beac7c-aabf-4c61-8619-8b5691c1e2df', 'name': '1', 'pet_photo': ''}, {'age': '1', 'animal_type': 'Персидская', 'created_at': '1671406626.635677', 'id': '6a95bf66-8a7d-4ea1-a564-b86bbfb83a4c', 'name': 'Персик', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '2222', 'animal_type': '22', 'created_at': '1671406559.782028', 'id': '96e66bcd-29c7-4196-9fae-bce3f18b5626', 'name': '2', 'pet_photo': ''}, {'age': '1,5', 'animal_type': 'Персидская', 'created_at': '1671403894.3570955', 'id': '8d0b327f-2907-4a16-ac8e-8ce4315f75b0', 'name': 'ПеРСиК', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '15', 'animal_type': 'Бык', 'created_at': '1671402454.090776', 'id': 'dc707891-8fc6-480f-9e70-a3d5cec1123f', 'name': 'Петя', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '10', 'animal_type': 'Пёс', 'created_at': '1671402435.5335982', 'id': 'd53eafb2-5f4a-4b3c-a881-2ed14c8e6b16', 'name': 'Вася', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '3', 'animal_type': '', 'created_at': '1671402121.7733834', 'id': 'fc48f2f2-b691-4f41-8567-2aff19af8379', 'name': 'Axel', 'pet_photo': ''}, {'age': '3', 'animal_type': '', 'created_at': '1671402120.9485617', 'id': '8a3107b0-400a-40f3-8731-2ae4f4e8106b', 'name': 'God', 'pet_photo': ''}, {'age': '11', 'animal_type': '', 'created_at': '1671402120.096263', 'id': 'b3bdddf1-0e3f-4ca7-a6b2-1ae414cdc79c', 'name': 'Ангел', 'pet_photo': ''}, {'age': '2', 'animal_type': 'Кот', 'created_at': '1671401536.866312', 'id': 'eca9afcf-5fa1-467b-8996-5880e91671c8', 'name': 'Филипп Дже', 'pet_photo': ''}, {'age': '3', 'animal_type': '', 'created_at': '1671401136.6244898', 'id': 'daf9725e-e480-471a-80ef-ea76efe8b702', 'name': 'Axel', 'pet_photo': ''}, {'age': '3', 'animal_type': '', 'created_at': '1671401135.90032', 'id': '8eedf63b-4cf7-4350-b8d5-36ee8789d253', 'name': 'God', 'pet_photo': ''}, {'age': '11', 'animal_type': '', 'created_at': '1671401135.181681', 'id': '6a3c2a47-3d14-499b-814b-fca2a38c86a4', 'name': 'Ангел', 'pet_photo': ''}, {'age': '2', 'animal_type': 'alabai', 'created_at': '1671400796.2833033', 'id': '8076fef5-c0d6-48b8-80e7-514ca660a90f', 'name': 'Rob', 'pet_photo': ''}, {'age': '5', 'animal_type': 'дворняга', 'created_at': '1671399478.5432725', 'id': 'a7fe49fa-3714-4aaf-beea-b1a2d08e7a09', 'name': 'Борис', 'pet_photo': ''}, {'age': '1', 'animal_type': 'неизвестны', 'created_at': '1671397334.9828353', 'id': '6abfeb6b-dbf5-4bfa-8d39-f97926cd2e17', 'name': 'Чебурашка', 'pet_photo': ''}, {'age': '', 'animal_type': '', 'created_at': '1671395480.1978784', 'id': 'db16b60a-8479-4638-ac1a-c99e7f07a08b', 'name': '', 'pet_photo': ''}, {'age': '3', 'animal_type': 'дворовый', 'created_at': '1671395476.949368', 'id': '1a3f9e50-5afc-4a66-b23e-e04e2e1f3490', 'name': 'Кабачок', 'pet_photo': ''}, {'age': '', 'animal_type': '', 'created_at': '1671395431.5598094', 'id': '5c1ed2e0-a0bb-4ab2-8419-ef13eebe087e', 'name': '', 'pet_photo': ''}, {'age': '1', 'animal_type': 'Персидская', 'created_at': '1671395374.6159208', 'id': '77f4346b-2345-4b71-b3de-ac17305b7efe', 'name': 'Персик', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '6', 'animal_type': 'Сурикат', 'created_at': '1671391985.5387545', 'id': '471a3005-b4e4-4c1e-9add-10d878ee745b', 'name': 'Тимон1', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '12', 'animal_type': 'доберка', 'created_at': '1671390729.760219', 'id': '12afe319-e989-44c9-bb74-6de0a876f248', 'name': 'Вилка', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '3', 'animal_type': 'оо', 'created_at': '1671389824.1443975', 'id': '5cd17982-67b8-4fac-bedc-0bde7a46208b', 'name': 'Tom', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '', 'animal_type': '', 'created_at': '1671388796.5126543', 'id': 'a6e334a0-1986-493d-ba25-f769fd6b7d01', 'name': '{{name}}', 'pet_photo': ''}, {'age': '5', 'animal_type': 'Котэ', 'created_at': '1671387702.3790298', 'id': '0846c57d-64a6-4cc9-a145-efcf29f31df6', 'name': 'Мурзик', 'pet_photo': ''}, {'age': '4', 'animal_type': 'двортерьер', 'created_at': '1671387546.399176', 'id': '139c980b-d3af-435a-96fc-52739b5f4b16', 'name': 'Барб12оски', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '4', 'animal_type': 'двортерьер', 'created_at': '1671386479.7145352', 'id': 'a66e524b-3fe1-4634-9287-2dcefce21c5a', 'name': 'Барб12оски', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '4', 'animal_type': 'двортерьер', 'created_at': '1671386216.1813772', 'id': '14b1fdbe-e7e9-4864-b64c-da6009b69662', 'name': 'Барб12оски', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '3', 'animal_type': 'сибирская', 'created_at': '1671385609.0613742', 'id': 'a74db4ec-c1af-465b-9208-112eda81c830', 'name': 'машка', 'pet_photo': ''}, {'age': '2', 'animal_type': 'домашний', 'created_at': '1671385586.1743164', 'id': '64ada8af-068e-4b86-9124-c1007b98ff1e', 'name': 'котя', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671385377.37725', 'id': 'd55f28ab-6465-49a4-b2b4-14acc529f247', 'name': 'Chip', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671385376.608029', 'id': '5ed13542-beee-4986-b696-131e53d9a0f6', 'name': 'Jerry', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671385375.6078167', 'id': '1140a60a-0ee5-49c4-b054-11ad8e083dc1', 'name': 'Garfield', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671385374.6310022', 'id': 'ff827f55-70c5-493c-968c-f4f4860f012a', 'name': 'Tom', 'pet_photo': ''}, {'age': '3', 'animal_type': 'дворовый', 'created_at': '1671384820.782157', 'id': '7c414c3e-45ea-422c-8f60-63f1b0324724', 'name': 'Евгений', 'pet_photo': ''}, {'age': '123', 'animal_type': 'Вуки', 'created_at': '1671384428.7120945', 'id': 'a6b171d2-6280-468e-9277-01dd3c793ff6', 'name': 'Чубакка', 'pet_photo': 'data:image/jpeg;base64'}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671384230.2877367', 'id': 'be589589-c687-4847-be90-dc2ca9d914b4', 'name': 'rfvdcccddd', 'pet_photo': ''}, {'age': '5', 'animal_type': 'кот', 'created_at': '1671384143.8042605', 'id': '234a6afc-96c2-493a-981f-b38ceb26a5a4', 'name': 'телепузичк', 'pet_photo': ''}, {'age': '1', 'animal_type': 'дворовый', 'created_at': '1671383656.0595245', 'id': 'af08f983-7726-4cfc-8379-09917e5d09c7', 'name': 'Женя', 'pet_photo': ''}, {'age': '0', 'animal_type': 'котик', 'created_at': '1671383636.057681', 'id': '97d00e9d-15d8-4de9-8146-6094ecfac082', 'name': 'телепупузи', 'pet_photo': ''}, {'age': '6', 'animal_type': 'британка', 'created_at': '1671383635.4696577', 'id': '088be229-d2e3-4813-90aa-d4e1116453f8', 'name': 'Маня', 'pet_photo': ''}, {'age': '2', 'animal_type': 'кот', 'created_at': '1671383598.9836948', 'id': '9f7a19a3-cba1-43a9-b702-a07460069873', 'name': 'карапузик', 'pet_photo': ''}, {'age': '5', 'animal_type': 'cat', 'created_at': '1671383020.320967', 'id': '977c067e-bbcd-4c0f-aff1-544d4950dd75', 'name': 'Jack', 'pet_photo': 'data:image/jpeg;base64'}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671382934.0578027', 'id': '3d970e86-fb5a-4358-86fe-ecedd51896bb', 'name': 'Djek', 'pet_photo': ''}, {'age': '2', 'animal_type': 'ааа', 'created_at': '1671382886.2390597', 'id': 'fd8b03ce-ce27-41a1-9aa5-216d7767d7cc', 'name': '<fixture.T', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '26', 'animal_type': 'крысёнок', 'created_at': '1671382847.7216756', 'id': 'd44f056a-2ee4-4dbc-be75-b55aab2fe0a2', 'name': 'Крысепупик', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '9', 'animal_type': 'Боксер', 'created_at': '1671381749.1606736', 'id': '301b1401-f6f7-40b4-a37c-5bdc4e5375c8', 'name': 'Айлин', 'pet_photo': 'data:image/jpeg;base64'}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671381638.6349905', 'id': '39605769-ca57-4aab-8ed2-cee2503a4064', 'name': 'rfvdcccddd', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671381637.629387', 'id': '3b938192-1bf7-468e-a9fa-cdd1ac27e8ae', 'name': 'Jerry', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671381636.74637', 'id': '9b9271f9-f98c-4866-a153-4c7919c949c9', 'name': 'Garfield', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671381635.9554079', 'id': '6e9c73a5-b542-4cdf-9897-a2b9829dbbc4', 'name': 'Tom', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671381525.1991744', 'id': 'd7dd9a6e-f480-4e29-a436-464c3498fe72', 'name': 'Djek', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671381524.4230428', 'id': '32796a06-58cc-4a7d-bd67-f3d8b71a4b8e', 'name': 'Djek', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671381523.3007054', 'id': '413d62eb-bb03-48d2-909e-907ab9ff885f', 'name': 'Djek', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671381522.541804', 'id': 'b9111a75-2e5c-4798-b85f-b58ab570c1e9', 'name': 'Djek', 'pet_photo': ''}, {'age': '1', 'animal_type': 'cat', 'created_at': '1671380893.66331', 'id': '52dd0399-11d9-4913-9444-043373fe4b42', 'name': 'Alex', 'pet_photo': ''}, {'age': '1', 'animal_type': 'dog', 'created_at': '1671380772.5373209', 'id': '67402638-4d70-4e27-b2e1-e622856059a4', 'name': 'Alex', 'pet_photo': ''}, {'age': '3', 'animal_type': 'cat', 'created_at': '1671380232.6308727', 'id': '119db349-5763-4e92-8551-717a6ff848f2', 'name': 'loyd', 'pet_photo': ''}, {'age': '11', 'animal_type': 'алабайs', 'created_at': '1671380175.567973', 'id': '81ef9014-4db5-462b-96f0-bbd632f74ae3', 'name': 'Шарикs', 'pet_photo': ''}, {'age': '2', 'animal_type': '', 'created_at': '1671380157.7038267', 'id': '35ee4252-d33b-45f2-9fcc-c61842610e07', 'name': '', 'pet_photo': ''}, {'age': '1', 'animal_type': 'dog', 'created_at': '1671380029.2661014', 'id': '3da1e284-4827-4871-bd45-57a1bc7ba593', 'name': 'Alex', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '1', 'animal_type': 'dog', 'created_at': '1671379637.8460999', 'id': '55c2912d-ca0d-4210-a677-74fac812d33d', 'name': 'Alex', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '7', 'animal_type': 'британская', 'created_at': '1671379571.194371', 'id': 'bb8e1e60-8047-4553-9abf-1a6e06656106', 'name': 'Нагетс', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '6', 'animal_type': 'Сурикат', 'created_at': '1671379070.945384', 'id': 'f946e55a-6b3d-4f20-9cb4-264f64bba61b', 'name': 'Тимон1', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '-5', 'animal_type': 'спаниель', 'created_at': '1671378972.0370467', 'id': 'c46a12c4-f73b-490b-8f6d-4ccbe2a70dbb', 'name': 'Тузикс', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '-5', 'animal_type': 'спаниель', 'created_at': '1671378968.5104525', 'id': '36ddcc72-6bf2-432d-840e-41602fe54b6b', 'name': 'Тузикс', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671377917.3744867', 'id': '3e38bf25-5ec9-4d13-8620-8ebb052fd9d6', 'name': 'Djek', 'pet_photo': ''}, {'age': '11', 'animal_type': 'алабайs', 'created_at': '1671377819.8277638', 'id': '3fb875b0-cccc-4c9e-960f-03bc3aa7f44d', 'name': 'Шарикs', 'pet_photo': 'data:image/jpeg;base64'}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671376788.183632', 'id': 'f0c6b261-7948-4b43-8eae-46699116e1da', 'name': 'Djek', 'pet_photo': ''}, {'age': '3', 'animal_type': 'Бобтейл', 'created_at': '1671375251.6646872', 'id': 'e11af3e6-a595-4451-b07d-f9c6ce6adfb5', 'name': 'кот3', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '1', 'animal_type': 'Бобтейл', 'created_at': '1671375223.020794', 'id': '69c95b1e-949f-4478-b670-e44be9488017', 'name': 'кот', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '1', 'animal_type': 'python', 'created_at': '1671374573.1720316', 'id': '004d6307-e8a4-4227-aca5-df616aeb0507', 'name': 'Yura_1', 'pet_photo': ''}, {'age': '', 'animal_type': '', 'created_at': '1671372332.6428752', 'id': '9ed8413a-4753-4a29-8982-485becb16e63', 'name': '', 'pet_photo': ''}, {'age': '', 'animal_type': '', 'created_at': '1671372332.555914', 'id': '286318a4-6d02-4469-b184-90f3172eca61', 'name': '', 'pet_photo': ''}, {'age': '4', 'animal_type': 'двортерьер', 'created_at': '1671371648.142136', 'id': '0e37917b-8ed3-4e76-883b-5c640def0a64', 'name': '的一是不了人我在有他', 'pet_photo': ''}]}
+============= Request =============
+Doing GET request to https://petfriends.skillfactory.ru/api/key
+Query parameter is not provided.
+Headers of request: {'email': 'kanabis_5@ka.bis', 'password': '1234567890'}
+============= Response =============
+Code of answer to response - <Response [200]>
+response body: {'key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing POST request to https://petfriends.skillfactory.ru/api/create_pet_simple
+Headers of request: {'auth_key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655', 'Content-Type': 'multipart/form-data; boundary=54df0ffd3efd45e899dd1f5192421a6e'}
+Request body: <MultipartEncoder: {'name': 'Maxim', 'animal_type': 'python', 'age': '1'}>
+============= Response =============
+Code of answer to response - [200]
+Response body: {'_id': '', 'age': '1', 'animal_type': 'python', 'created_at': '1671433884.8002346', 'id': '577de906-c316-4ef9-91f4-70f8d775e1a0', 'name': 'Maxim', 'pet_photo': '', 'user_id': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing GET request to https://petfriends.skillfactory.ru/api/key
+Query parameter is not provided.
+Headers of request: {'email': 'kanabis_5@ka.bis', 'password': '1234567890'}
+============= Response =============
+Code of answer to response - <Response [200]>
+response body: {'key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing POST request to https://petfriends.skillfactory.ru/api/pets
+Headers of request: {'auth_key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655', 'Content-Type': 'multipart/form-data; boundary=0d7a8574a7b945eb84fedffc409fe005'}
+Request body: <MultipartEncoder: {'name': 'Сурик', 'animal_type': 'кот', 'age': '1', 'pet_photo': ('/home/user/PycharmProjects/PetFriendAutoTestFix/tests/../images/111.jpeg', <_io.BufferedReader name='/home/user/PycharmProjects/PetFriendAutoTestFix/tests/../images/111.jpeg'>, 'image/jpeg')}>
+============= Response =============
+Code of answer to response - [200]
+Response body: {'_id': '', 'age': '1', 'animal_type': 'кот', 'created_at': '1671433886.479129', 'id': '6c62429c-ddf5-4ccc-9779-55508f51cdd3', 'name': 'Сурик', 'pet_photo': 'data:image/jpeg;base64', 'user_id': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing POST request to https://petfriends.skillfactory.ru/api/pets/set_photo/6c62429c-ddf5-4ccc-9779-55508f51cdd3
+Headers of request: {'auth_key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655', 'Content-Type': 'multipart/form-data; boundary=05060a731fa54ff880a630ff84f69dc8'}
+Request body: <MultipartEncoder: {'pet_id': '6c62429c-ddf5-4ccc-9779-55508f51cdd3', 'pet_photo': ('/home/user/PycharmProjects/PetFriendAutoTestFix/tests/../images/111.jpeg', <_io.BufferedReader name='/home/user/PycharmProjects/PetFriendAutoTestFix/tests/../images/111.jpeg'>, 'image/jpeg')}>
+============= Response =============
+Code of answer to response - [200]
+Response body: {'_id': '', 'age': '1', 'animal_type': 'кот', 'created_at': '1671433886.479129', 'id': '6c62429c-ddf5-4ccc-9779-55508f51cdd3', 'name': 'Сурик', 'pet_photo': 'data:image/jpeg;base64', 'user_id': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing GET request to https://petfriends.skillfactory.ru/api/key
+Query parameter is not provided.
+Headers of request: {'email': 'kanabis_5@ka.bis', 'password': '1234567890'}
+============= Response =============
+Code of answer to response - <Response [200]>
+response body: {'key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing POST request to https://petfriends.skillfactory.ru/api/pets
+Headers of request: {'auth_key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655', 'Content-Type': 'multipart/form-data; boundary=f6a836de9038443c94c8796eca7d4cc3'}
+Request body: <MultipartEncoder: {'name': 'Alon', 'animal_type': 'Creep', 'age': '3', 'pet_photo': ('/home/user/PycharmProjects/PetFriendAutoTestFix/tests/../images/111.jpeg', <_io.BufferedReader name='/home/user/PycharmProjects/PetFriendAutoTestFix/tests/../images/111.jpeg'>, 'image/jpeg')}>
+============= Response =============
+Code of answer to response - [200]
+Response body: {'_id': '', 'age': '3', 'animal_type': 'Creep', 'created_at': '1671433889.418857', 'id': '28add192-a10d-4793-991c-ff6e744a7967', 'name': 'Alon', 'pet_photo': 'data:image/jpeg;base64', 'user_id': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing GET request to https://petfriends.skillfactory.ru/api/key
+Query parameter is not provided.
+Headers of request: {'email': 'kanabis_5@ka.bis', 'password': '1234567890'}
+============= Response =============
+Code of answer to response - <Response [200]>
+response body: {'key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing GET request to https://petfriends.skillfactory.ru/api/pets
+Parameters of path: filter=my_pets
+Headers of request: {'auth_key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Response =============
+Code of answer to response - <Response [200]>
+response body: {'pets': [{'age': '3', 'animal_type': 'Creep', 'created_at': '1671433889.418857', 'id': '28add192-a10d-4793-991c-ff6e744a7967', 'name': 'Alon', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '1', 'animal_type': 'кот', 'created_at': '1671433886.479129', 'id': '6c62429c-ddf5-4ccc-9779-55508f51cdd3', 'name': 'Сурик', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '1', 'animal_type': 'python', 'created_at': '1671433884.8002346', 'id': '577de906-c316-4ef9-91f4-70f8d775e1a0', 'name': 'Maxim', 'pet_photo': ''}, {'age': '3', 'animal_type': 'snake', 'created_at': '1671433823.5045352', 'id': '274c6c62-a4ff-4983-b481-9d12c4763813', 'name': 'Yan', 'pet_photo': ''}, {'age': '2', 'animal_type': 'шуршунчик', 'created_at': '1671433809.7362475', 'id': '2ad1e3c2-a14f-4a44-9bad-ea40956a336a', 'name': 'Фуфырик', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '1', 'animal_type': 'кот', 'created_at': '1671433806.3922482', 'id': '0151d31f-c4ee-423b-a3c0-593138e19643', 'name': 'Сурик', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '1', 'animal_type': 'python', 'created_at': '1671433804.567119', 'id': '01033b4d-6375-4ae8-bfbb-25f5abd4ed5a', 'name': 'Maxim', 'pet_photo': ''}, {'age': '3', 'animal_type': 'snake', 'created_at': '1671433599.389617', 'id': '0e47af44-6378-4a34-a8e5-2876a3d94a2f', 'name': 'Yan', 'pet_photo': ''}, {'age': '2', 'animal_type': 'шуршунчик', 'created_at': '1671433586.71505', 'id': 'af433336-2a07-47a0-b3fd-01250cb10758', 'name': 'Фуфырик', 'pet_photo': ''}, {'age': '1', 'animal_type': 'pop', 'created_at': '1670633704.4768157', 'id': '8b8e0c5c-fcd9-4e68-86af-723221c0a6c2', 'name': 'Пес', 'pet_photo': ''}, {'age': '3', 'animal_type': 'snake', 'created_at': '1670633588.4979932', 'id': 'eaa8e5f9-ad0e-4b94-9cd7-ccb4b4c6fa22', 'name': 'Yan', 'pet_photo': ''}, {'age': '1', 'animal_type': 'pop', 'created_at': '1670633584.5105243', 'id': 'e02295a6-560e-4d86-8a4a-5373243eaeb9', 'name': 'Пес', 'pet_photo': ''}, {'age': '2', 'animal_type': 'шуршунчик', 'created_at': '1670633572.4821777', 'id': 'be8d1dc3-b442-434c-ab17-3ad5ef8786ac', 'name': 'Фуфырик', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '1', 'animal_type': 'кот', 'created_at': '1670633569.499254', 'id': '9f2335e5-644c-4e16-b179-92227ef82ab5', 'name': 'Сурик', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '10', 'animal_type': 'snake', 'created_at': '1670633567.5023923', 'id': 'b03c4b2a-6449-4ec3-ac05-0f8a1c2066a8', 'name': 'Gidropon', 'pet_photo': ''}, {'age': '3', 'animal_type': 'snake', 'created_at': '1670633424.5003934', 'id': '16ea403a-f215-467f-be60-971d3d768b37', 'name': 'Yan', 'pet_photo': ''}, {'age': '1', 'animal_type': 'pop', 'created_at': '1670633420.509302', 'id': 'f0178ef8-a97c-444c-ae2b-274042875ce8', 'name': 'Пес', 'pet_photo': ''}, {'age': '2', 'animal_type': 'шуршунчик', 'created_at': '1670633408.4645653', 'id': '26f1f217-4828-4ea1-bba8-33de87f1708d', 'name': 'Фуфырик', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '1', 'animal_type': 'кот', 'created_at': '1670633405.5660336', 'id': '10edb58a-0ef8-40a1-b60c-7c6f1055072e', 'name': 'Сурик', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '10', 'animal_type': 'snake', 'created_at': '1670633403.5101964', 'id': 'a5ecbabc-0144-4ecc-9076-c26cf38c8610', 'name': 'Gidropon', 'pet_photo': ''}]}
+============= Request =============
+Doing PUT request to https://petfriends.skillfactory.ru/api/pets/
+Headers of request: {'auth_key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655', 'Content-Type': 'multipart/form-data; boundary=13d45c06f2f14f1197cf61b771ab449a'}
+Parameters of request path pet_id: 28add192-a10d-4793-991c-ff6e744a7967
+Request body: <MultipartEncoder: {'name': 'Фуфырик', 'animal_type': 'шуршунчик', 'age': '2'}>
+============= Response =============
+Code of answer to response - <Response [200]>
+Response body: {'age': '2', 'animal_type': 'шуршунчик', 'created_at': '1671433889.418857', 'id': '28add192-a10d-4793-991c-ff6e744a7967', 'name': 'Фуфырик', 'pet_photo': 'data:image/jpeg;base64', 'user_id': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing GET request to https://petfriends.skillfactory.ru/api/key
+Query parameter is not provided.
+Headers of request: {'email': 'kanabis_5@ka.bis', 'password': '1234567890'}
+============= Response =============
+Code of answer to response - <Response [200]>
+response body: {'key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing POST request to https://petfriends.skillfactory.ru/api/pets
+Headers of request: {'auth_key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655', 'Content-Type': 'multipart/form-data; boundary=6c41da20b67d4dcf8cf0f17ed4999137'}
+Request body: <MultipartEncoder: {'name': 'Puzik', 'animal_type': 'cat', 'age': '1', 'pet_photo': ('/home/user/PycharmProjects/PetFriendAutoTestFix/tests/../images/111.jpeg', <_io.BufferedReader name='/home/user/PycharmProjects/PetFriendAutoTestFix/tests/../images/111.jpeg'>, 'image/jpeg')}>
+============= Response =============
+Code of answer to response - [200]
+Response body: {'_id': '', 'age': '1', 'animal_type': 'cat', 'created_at': '1671433894.6293895', 'id': '7a846636-2bb9-4ab6-af4f-3dae2e3abdd9', 'name': 'Puzik', 'pet_photo': 'data:image/jpeg;base64', 'user_id': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+Doing DELETE response to https://petfriends.skillfactory.ru/api/pets/
+Headers of request: {'auth_key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+Parameter of path request pet_id: 7a846636-2bb9-4ab6-af4f-3dae2e3abdd9
+Code of answer to request- <Response [200]>
+============= Request =============
+Doing GET request to https://petfriends.skillfactory.ru/api/key
+Query parameter is not provided.
+Headers of request: {'email': '66666666666666666@6666666.1', 'password': '1234567890'}
+============= Response =============
+Code of answer to response - <Response [403]>
+Response body: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>403 Forbidden</title>
+<h1>Forbidden</h1>
+<p>This user wasn&#x27;t found in database</p>
+
+============= Request =============
+Doing GET request to https://petfriends.skillfactory.ru/api/key
+Query parameter is not provided.
+Headers of request: {'email': 'kanabis_5@ka.bis', 'password': '1234567890'}
+============= Response =============
+Code of answer to response - <Response [200]>
+response body: {'key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing POST request to https://petfriends.skillfactory.ru/api/create_pet_simple
+Headers of request: {'auth_key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655', 'Content-Type': 'multipart/form-data; boundary=52a6d8bb63984db4bf5e4d889eecb60a'}
+Request body: <MultipartEncoder: {'name': 'Grundik', 'age': '5'}>
+============= Response =============
+Code of answer to response - [400]
+============= Request =============
+Doing POST request to https://petfriends.skillfactory.ru/api/create_pet_simple
+Headers of request: {'auth_key': 'Invalid_user', 'Content-Type': 'multipart/form-data; boundary=f34aeda0ac5a40149fcc75f621d03c02'}
+Request body: <MultipartEncoder: {'name': 'Lolik', 'animal_type': 'Слон', 'age': '4'}>
+============= Response =============
+Code of answer to response - [403]
+============= Request =============
+Doing GET request to https://petfriends.skillfactory.ru/api/key
+Query parameter is not provided.
+Headers of request: {'email': 'kanabis_5@ka.bis', 'password': '1234567890'}
+============= Response =============
+Code of answer to response - <Response [200]>
+response body: {'key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing POST request to https://petfriends.skillfactory.ru/api/pets
+Headers of request: {'auth_key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655', 'Content-Type': 'multipart/form-data; boundary=4e8e0031eed544e1ab94fb6897424aaf'}
+Request body: <MultipartEncoder: {'name': 'Пес', 'animal_type': 'pop', 'age': '1', 'pet_photo': ('/home/user/PycharmProjects/PetFriendAutoTestFix/tests/../images/radm.pp', <_io.BufferedReader name='/home/user/PycharmProjects/PetFriendAutoTestFix/tests/../images/radm.pp'>, 'image/jpeg')}>
+============= Response =============
+Code of answer to response - [200]
+Response body: {'_id': '', 'age': '1', 'animal_type': 'pop', 'created_at': '1671433901.7879236', 'id': 'bcd3a327-9608-451e-8184-b7aace547f91', 'name': 'Пес', 'pet_photo': '', 'user_id': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing POST request to https://petfriends.skillfactory.ru/api/pets
+Headers of request: {'auth_key': 'Invalid_user', 'Content-Type': 'multipart/form-data; boundary=9fc2f085a9364ec5aee3ea60c52e4878'}
+Request body: <MultipartEncoder: {'name': 'LLLo', 'animal_type': 'nitka', 'age': '1', 'pet_photo': ('/home/user/PycharmProjects/PetFriendAutoTestFix/tests/../images/111.jpeg', <_io.BufferedReader name='/home/user/PycharmProjects/PetFriendAutoTestFix/tests/../images/111.jpeg'>, 'image/jpeg')}>
+============= Response =============
+Code of answer to response - [403]
+============= Request =============
+Doing GET request to https://petfriends.skillfactory.ru/api/key
+Query parameter is not provided.
+Headers of request: {'email': 'kanabis_5@ka.bis', 'password': '1234567890'}
+============= Response =============
+Code of answer to response - <Response [200]>
+response body: {'key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing POST request to https://petfriends.skillfactory.ru/api/create_pet_simple
+Headers of request: {'auth_key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655', 'Content-Type': 'multipart/form-data; boundary=9526d85535644c518f76d0761cf52efa'}
+Request body: <MultipartEncoder: {'name': 'Yan', 'animal_type': 'snake', 'age': '3'}>
+============= Response =============
+Code of answer to response - [200]
+Response body: {'_id': '', 'age': '3', 'animal_type': 'snake', 'created_at': '1671433904.4518294', 'id': '9ba7f803-cda4-4394-970e-20894517ba6e', 'name': 'Yan', 'pet_photo': '', 'user_id': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing GET request to https://petfriends.skillfactory.ru/api/key
+Query parameter is not provided.
+Headers of request: {'email': 'kanabis_5@ka.bis', 'password': '1234567890'}
+============= Response =============
+Code of answer to response - <Response [200]>
+response body: {'key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing GET request to https://petfriends.skillfactory.ru/api/pets
+Parameters of path: filter=
+Headers of request: {'auth_key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Response =============
+Code of answer to response - <Response [200]>
+response body: {'pets': [{'age': '3', 'animal_type': 'snake', 'created_at': '1671433904.4518294', 'id': '9ba7f803-cda4-4394-970e-20894517ba6e', 'name': 'Yan', 'pet_photo': ''}, {'age': '1', 'animal_type': 'pop', 'created_at': '1671433901.7879236', 'id': 'bcd3a327-9608-451e-8184-b7aace547f91', 'name': 'Пес', 'pet_photo': ''}, {'age': '2', 'animal_type': 'шуршунчик', 'created_at': '1671433889.418857', 'id': '28add192-a10d-4793-991c-ff6e744a7967', 'name': 'Фуфырик', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '1', 'animal_type': 'кот', 'created_at': '1671433886.479129', 'id': '6c62429c-ddf5-4ccc-9779-55508f51cdd3', 'name': 'Сурик', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '1', 'animal_type': 'python', 'created_at': '1671433884.8002346', 'id': '577de906-c316-4ef9-91f4-70f8d775e1a0', 'name': 'Maxim', 'pet_photo': ''}, {'age': '3', 'animal_type': 'snake', 'created_at': '1671433823.5045352', 'id': '274c6c62-a4ff-4983-b481-9d12c4763813', 'name': 'Yan', 'pet_photo': ''}, {'age': '2', 'animal_type': 'шуршунчик', 'created_at': '1671433809.7362475', 'id': '2ad1e3c2-a14f-4a44-9bad-ea40956a336a', 'name': 'Фуфырик', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '1', 'animal_type': 'кот', 'created_at': '1671433806.3922482', 'id': '0151d31f-c4ee-423b-a3c0-593138e19643', 'name': 'Сурик', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '1', 'animal_type': 'python', 'created_at': '1671433804.567119', 'id': '01033b4d-6375-4ae8-bfbb-25f5abd4ed5a', 'name': 'Maxim', 'pet_photo': ''}, {'age': '3', 'animal_type': 'snake', 'created_at': '1671433599.389617', 'id': '0e47af44-6378-4a34-a8e5-2876a3d94a2f', 'name': 'Yan', 'pet_photo': ''}, {'age': '2', 'animal_type': 'шуршунчик', 'created_at': '1671433586.71505', 'id': 'af433336-2a07-47a0-b3fd-01250cb10758', 'name': 'Фуфырик', 'pet_photo': ''}, {'age': '3', 'animal_type': 'оо', 'created_at': '1671432890.04388', 'id': '9064c3cf-7264-4b18-b5f1-951a82b0cb28', 'name': 'Tom', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '3', 'animal_type': 'оо', 'created_at': '1671432875.073221', 'id': 'cad153ee-4620-4d12-8a84-498033601a23', 'name': 'Tom', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '1', 'animal_type': 'Britan', 'created_at': '1671432127.5748794', 'id': '57c68e4c-160d-4650-99bd-cd69d4e342f5', 'name': 'Mr.Grey', 'pet_photo': ''}, {'age': '6', 'animal_type': 'дворовый', 'created_at': '1671431275.8491755', 'id': 'd8251eba-1819-48ee-b27d-dc97fefc75ba', 'name': 'Котовских', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '2', 'animal_type': 'crocodile', 'created_at': '1671430930.7985482', 'id': '0c472283-fc0d-4951-8b8e-3c53062ed4e1', 'name': 'Gosha', 'pet_photo': ''}, {'age': '2', 'animal_type': 'crocodile', 'created_at': '1671430513.5531821', 'id': '858dec42-7465-4068-8ea7-26a996c589a9', 'name': 'Gosha', 'pet_photo': ''}, {'age': '3', 'animal_type': 'собака', 'created_at': '1671428972.1638792', 'id': '7349869d-5809-4d87-9645-5f8f6b07126e', 'name': 'God', 'pet_photo': ''}, {'age': '11', 'animal_type': 'dog', 'created_at': '1671428971.3973877', 'id': '0165f9e3-1e62-45bc-9781-cc128498bec7', 'name': 'Ангел', 'pet_photo': ''}, {'age': '4', 'animal_type': 'овчарка', 'created_at': '1671428812.5616891', 'id': '36135d93-4b78-4a8c-8cce-4aecf5c025e6', 'name': 'Рэкс', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671428562.671691', 'id': 'd40dd867-c0f5-4023-9e4c-b0bd582f81d6', 'name': 'Vasa', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671428545.4388113', 'id': '723d9238-5d46-48e2-9e9a-d58b06249010', 'name': 'Vasa', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671428064.980119', 'id': '0094caa3-5ded-4dd5-8115-f7584934391f', 'name': 'ывыфвыв', 'pet_photo': ''}, {'age': '2', 'animal_type': 'tutu', 'created_at': '1671427306.7805898', 'id': '76e6779e-83c8-49b9-a5e4-b4847ae0658b', 'name': 'Murzik', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '2', 'animal_type': 'Scottish F', 'created_at': '1671427275.4296362', 'id': 'b5c7d9da-583d-4d01-9a8d-07842c0f4eff', 'name': 'Tom', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '2', 'animal_type': 'Rottweiler', 'created_at': '1671427192.8012707', 'id': '4af7c934-47e9-4e15-b184-a9c9037720d9', 'name': 'Archy', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '0', 'animal_type': 'попугай', 'created_at': '1671424288.8814924', 'id': '984f03da-85b4-49cd-8506-5c47f2151973', 'name': 'Петя', 'pet_photo': ''}, {'age': '1', 'animal_type': 'дворняга', 'created_at': '1671424216.6935089', 'id': '73099ad1-e7dc-4559-81c9-a5d0b16a915b', 'name': 'Киса', 'pet_photo': ''}, {'age': '7', 'animal_type': 'дворовый', 'created_at': '1671417226.428832', 'id': '7c909a1c-4ae2-436c-8099-8e9b4e691b5c', 'name': 'Котовски', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '1', 'animal_type': 'Персидская', 'created_at': '1671409315.6467772', 'id': '56c9c74d-84d1-4882-9b51-649703361966', 'name': 'Персик', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '132', 'animal_type': '1', 'created_at': '1671407645.1787639', 'id': '11beac7c-aabf-4c61-8619-8b5691c1e2df', 'name': '1', 'pet_photo': ''}, {'age': '1', 'animal_type': 'Персидская', 'created_at': '1671406626.635677', 'id': '6a95bf66-8a7d-4ea1-a564-b86bbfb83a4c', 'name': 'Персик', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '2222', 'animal_type': '22', 'created_at': '1671406559.782028', 'id': '96e66bcd-29c7-4196-9fae-bce3f18b5626', 'name': '2', 'pet_photo': ''}, {'age': '1,5', 'animal_type': 'Персидская', 'created_at': '1671403894.3570955', 'id': '8d0b327f-2907-4a16-ac8e-8ce4315f75b0', 'name': 'ПеРСиК', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '15', 'animal_type': 'Бык', 'created_at': '1671402454.090776', 'id': 'dc707891-8fc6-480f-9e70-a3d5cec1123f', 'name': 'Петя', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '10', 'animal_type': 'Пёс', 'created_at': '1671402435.5335982', 'id': 'd53eafb2-5f4a-4b3c-a881-2ed14c8e6b16', 'name': 'Вася', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '3', 'animal_type': '', 'created_at': '1671402121.7733834', 'id': 'fc48f2f2-b691-4f41-8567-2aff19af8379', 'name': 'Axel', 'pet_photo': ''}, {'age': '3', 'animal_type': '', 'created_at': '1671402120.9485617', 'id': '8a3107b0-400a-40f3-8731-2ae4f4e8106b', 'name': 'God', 'pet_photo': ''}, {'age': '11', 'animal_type': '', 'created_at': '1671402120.096263', 'id': 'b3bdddf1-0e3f-4ca7-a6b2-1ae414cdc79c', 'name': 'Ангел', 'pet_photo': ''}, {'age': '2', 'animal_type': 'Кот', 'created_at': '1671401536.866312', 'id': 'eca9afcf-5fa1-467b-8996-5880e91671c8', 'name': 'Филипп Дже', 'pet_photo': ''}, {'age': '3', 'animal_type': '', 'created_at': '1671401136.6244898', 'id': 'daf9725e-e480-471a-80ef-ea76efe8b702', 'name': 'Axel', 'pet_photo': ''}, {'age': '3', 'animal_type': '', 'created_at': '1671401135.90032', 'id': '8eedf63b-4cf7-4350-b8d5-36ee8789d253', 'name': 'God', 'pet_photo': ''}, {'age': '11', 'animal_type': '', 'created_at': '1671401135.181681', 'id': '6a3c2a47-3d14-499b-814b-fca2a38c86a4', 'name': 'Ангел', 'pet_photo': ''}, {'age': '2', 'animal_type': 'alabai', 'created_at': '1671400796.2833033', 'id': '8076fef5-c0d6-48b8-80e7-514ca660a90f', 'name': 'Rob', 'pet_photo': ''}, {'age': '5', 'animal_type': 'дворняга', 'created_at': '1671399478.5432725', 'id': 'a7fe49fa-3714-4aaf-beea-b1a2d08e7a09', 'name': 'Борис', 'pet_photo': ''}, {'age': '1', 'animal_type': 'неизвестны', 'created_at': '1671397334.9828353', 'id': '6abfeb6b-dbf5-4bfa-8d39-f97926cd2e17', 'name': 'Чебурашка', 'pet_photo': ''}, {'age': '', 'animal_type': '', 'created_at': '1671395480.1978784', 'id': 'db16b60a-8479-4638-ac1a-c99e7f07a08b', 'name': '', 'pet_photo': ''}, {'age': '3', 'animal_type': 'дворовый', 'created_at': '1671395476.949368', 'id': '1a3f9e50-5afc-4a66-b23e-e04e2e1f3490', 'name': 'Кабачок', 'pet_photo': ''}, {'age': '', 'animal_type': '', 'created_at': '1671395431.5598094', 'id': '5c1ed2e0-a0bb-4ab2-8419-ef13eebe087e', 'name': '', 'pet_photo': ''}, {'age': '1', 'animal_type': 'Персидская', 'created_at': '1671395374.6159208', 'id': '77f4346b-2345-4b71-b3de-ac17305b7efe', 'name': 'Персик', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '6', 'animal_type': 'Сурикат', 'created_at': '1671391985.5387545', 'id': '471a3005-b4e4-4c1e-9add-10d878ee745b', 'name': 'Тимон1', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '12', 'animal_type': 'доберка', 'created_at': '1671390729.760219', 'id': '12afe319-e989-44c9-bb74-6de0a876f248', 'name': 'Вилка', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '3', 'animal_type': 'оо', 'created_at': '1671389824.1443975', 'id': '5cd17982-67b8-4fac-bedc-0bde7a46208b', 'name': 'Tom', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '', 'animal_type': '', 'created_at': '1671388796.5126543', 'id': 'a6e334a0-1986-493d-ba25-f769fd6b7d01', 'name': '{{name}}', 'pet_photo': ''}, {'age': '5', 'animal_type': 'Котэ', 'created_at': '1671387702.3790298', 'id': '0846c57d-64a6-4cc9-a145-efcf29f31df6', 'name': 'Мурзик', 'pet_photo': ''}, {'age': '4', 'animal_type': 'двортерьер', 'created_at': '1671387546.399176', 'id': '139c980b-d3af-435a-96fc-52739b5f4b16', 'name': 'Барб12оски', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '4', 'animal_type': 'двортерьер', 'created_at': '1671386479.7145352', 'id': 'a66e524b-3fe1-4634-9287-2dcefce21c5a', 'name': 'Барб12оски', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '4', 'animal_type': 'двортерьер', 'created_at': '1671386216.1813772', 'id': '14b1fdbe-e7e9-4864-b64c-da6009b69662', 'name': 'Барб12оски', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '3', 'animal_type': 'сибирская', 'created_at': '1671385609.0613742', 'id': 'a74db4ec-c1af-465b-9208-112eda81c830', 'name': 'машка', 'pet_photo': ''}, {'age': '2', 'animal_type': 'домашний', 'created_at': '1671385586.1743164', 'id': '64ada8af-068e-4b86-9124-c1007b98ff1e', 'name': 'котя', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671385377.37725', 'id': 'd55f28ab-6465-49a4-b2b4-14acc529f247', 'name': 'Chip', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671385376.608029', 'id': '5ed13542-beee-4986-b696-131e53d9a0f6', 'name': 'Jerry', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671385375.6078167', 'id': '1140a60a-0ee5-49c4-b054-11ad8e083dc1', 'name': 'Garfield', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671385374.6310022', 'id': 'ff827f55-70c5-493c-968c-f4f4860f012a', 'name': 'Tom', 'pet_photo': ''}, {'age': '3', 'animal_type': 'дворовый', 'created_at': '1671384820.782157', 'id': '7c414c3e-45ea-422c-8f60-63f1b0324724', 'name': 'Евгений', 'pet_photo': ''}, {'age': '123', 'animal_type': 'Вуки', 'created_at': '1671384428.7120945', 'id': 'a6b171d2-6280-468e-9277-01dd3c793ff6', 'name': 'Чубакка', 'pet_photo': 'data:image/jpeg;base64'}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671384230.2877367', 'id': 'be589589-c687-4847-be90-dc2ca9d914b4', 'name': 'rfvdcccddd', 'pet_photo': ''}, {'age': '5', 'animal_type': 'кот', 'created_at': '1671384143.8042605', 'id': '234a6afc-96c2-493a-981f-b38ceb26a5a4', 'name': 'телепузичк', 'pet_photo': ''}, {'age': '1', 'animal_type': 'дворовый', 'created_at': '1671383656.0595245', 'id': 'af08f983-7726-4cfc-8379-09917e5d09c7', 'name': 'Женя', 'pet_photo': ''}, {'age': '0', 'animal_type': 'котик', 'created_at': '1671383636.057681', 'id': '97d00e9d-15d8-4de9-8146-6094ecfac082', 'name': 'телепупузи', 'pet_photo': ''}, {'age': '6', 'animal_type': 'британка', 'created_at': '1671383635.4696577', 'id': '088be229-d2e3-4813-90aa-d4e1116453f8', 'name': 'Маня', 'pet_photo': ''}, {'age': '2', 'animal_type': 'кот', 'created_at': '1671383598.9836948', 'id': '9f7a19a3-cba1-43a9-b702-a07460069873', 'name': 'карапузик', 'pet_photo': ''}, {'age': '5', 'animal_type': 'cat', 'created_at': '1671383020.320967', 'id': '977c067e-bbcd-4c0f-aff1-544d4950dd75', 'name': 'Jack', 'pet_photo': 'data:image/jpeg;base64'}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671382934.0578027', 'id': '3d970e86-fb5a-4358-86fe-ecedd51896bb', 'name': 'Djek', 'pet_photo': ''}, {'age': '2', 'animal_type': 'ааа', 'created_at': '1671382886.2390597', 'id': 'fd8b03ce-ce27-41a1-9aa5-216d7767d7cc', 'name': '<fixture.T', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '26', 'animal_type': 'крысёнок', 'created_at': '1671382847.7216756', 'id': 'd44f056a-2ee4-4dbc-be75-b55aab2fe0a2', 'name': 'Крысепупик', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '9', 'animal_type': 'Боксер', 'created_at': '1671381749.1606736', 'id': '301b1401-f6f7-40b4-a37c-5bdc4e5375c8', 'name': 'Айлин', 'pet_photo': 'data:image/jpeg;base64'}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671381638.6349905', 'id': '39605769-ca57-4aab-8ed2-cee2503a4064', 'name': 'rfvdcccddd', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671381637.629387', 'id': '3b938192-1bf7-468e-a9fa-cdd1ac27e8ae', 'name': 'Jerry', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671381636.74637', 'id': '9b9271f9-f98c-4866-a153-4c7919c949c9', 'name': 'Garfield', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671381635.9554079', 'id': '6e9c73a5-b542-4cdf-9897-a2b9829dbbc4', 'name': 'Tom', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671381525.1991744', 'id': 'd7dd9a6e-f480-4e29-a436-464c3498fe72', 'name': 'Djek', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671381524.4230428', 'id': '32796a06-58cc-4a7d-bd67-f3d8b71a4b8e', 'name': 'Djek', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671381523.3007054', 'id': '413d62eb-bb03-48d2-909e-907ab9ff885f', 'name': 'Djek', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671381522.541804', 'id': 'b9111a75-2e5c-4798-b85f-b58ab570c1e9', 'name': 'Djek', 'pet_photo': ''}, {'age': '1', 'animal_type': 'cat', 'created_at': '1671380893.66331', 'id': '52dd0399-11d9-4913-9444-043373fe4b42', 'name': 'Alex', 'pet_photo': ''}, {'age': '1', 'animal_type': 'dog', 'created_at': '1671380772.5373209', 'id': '67402638-4d70-4e27-b2e1-e622856059a4', 'name': 'Alex', 'pet_photo': ''}, {'age': '3', 'animal_type': 'cat', 'created_at': '1671380232.6308727', 'id': '119db349-5763-4e92-8551-717a6ff848f2', 'name': 'loyd', 'pet_photo': ''}, {'age': '11', 'animal_type': 'алабайs', 'created_at': '1671380175.567973', 'id': '81ef9014-4db5-462b-96f0-bbd632f74ae3', 'name': 'Шарикs', 'pet_photo': ''}, {'age': '2', 'animal_type': '', 'created_at': '1671380157.7038267', 'id': '35ee4252-d33b-45f2-9fcc-c61842610e07', 'name': '', 'pet_photo': ''}, {'age': '1', 'animal_type': 'dog', 'created_at': '1671380029.2661014', 'id': '3da1e284-4827-4871-bd45-57a1bc7ba593', 'name': 'Alex', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '1', 'animal_type': 'dog', 'created_at': '1671379637.8460999', 'id': '55c2912d-ca0d-4210-a677-74fac812d33d', 'name': 'Alex', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '7', 'animal_type': 'британская', 'created_at': '1671379571.194371', 'id': 'bb8e1e60-8047-4553-9abf-1a6e06656106', 'name': 'Нагетс', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '6', 'animal_type': 'Сурикат', 'created_at': '1671379070.945384', 'id': 'f946e55a-6b3d-4f20-9cb4-264f64bba61b', 'name': 'Тимон1', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '-5', 'animal_type': 'спаниель', 'created_at': '1671378972.0370467', 'id': 'c46a12c4-f73b-490b-8f6d-4ccbe2a70dbb', 'name': 'Тузикс', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '-5', 'animal_type': 'спаниель', 'created_at': '1671378968.5104525', 'id': '36ddcc72-6bf2-432d-840e-41602fe54b6b', 'name': 'Тузикс', 'pet_photo': ''}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671377917.3744867', 'id': '3e38bf25-5ec9-4d13-8620-8ebb052fd9d6', 'name': 'Djek', 'pet_photo': ''}, {'age': '11', 'animal_type': 'алабайs', 'created_at': '1671377819.8277638', 'id': '3fb875b0-cccc-4c9e-960f-03bc3aa7f44d', 'name': 'Шарикs', 'pet_photo': 'data:image/jpeg;base64'}, {'age': 'None', 'animal_type': 'None', 'created_at': '1671376788.183632', 'id': 'f0c6b261-7948-4b43-8eae-46699116e1da', 'name': 'Djek', 'pet_photo': ''}, {'age': '3', 'animal_type': 'Бобтейл', 'created_at': '1671375251.6646872', 'id': 'e11af3e6-a595-4451-b07d-f9c6ce6adfb5', 'name': 'кот3', 'pet_photo': 'data:image/jpeg;base64'}]}
+============= Request =============
+Doing GET request to https://petfriends.skillfactory.ru/api/key
+Query parameter is not provided.
+Headers of request: {'email': 'kanabis_5@ka.bis', 'password': '1234567890'}
+============= Response =============
+Code of answer to response - <Response [200]>
+response body: {'key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing POST request to https://petfriends.skillfactory.ru/api/create_pet_simple
+Headers of request: {'auth_key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655', 'Content-Type': 'multipart/form-data; boundary=bd2f3bb5e2ff486e8d8bd70b83239b7b'}
+Request body: <MultipartEncoder: {'name': 'Maxim', 'animal_type': 'python', 'age': '1'}>
+============= Response =============
+Code of answer to response - [200]
+Response body: {'_id': '', 'age': '1', 'animal_type': 'python', 'created_at': '1671433927.4886973', 'id': '8752940a-86f8-4333-90a3-33e020d507ad', 'name': 'Maxim', 'pet_photo': '', 'user_id': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing GET request to https://petfriends.skillfactory.ru/api/key
+Query parameter is not provided.
+Headers of request: {'email': 'kanabis_5@ka.bis', 'password': '1234567890'}
+============= Response =============
+Code of answer to response - <Response [200]>
+response body: {'key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing POST request to https://petfriends.skillfactory.ru/api/pets
+Headers of request: {'auth_key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655', 'Content-Type': 'multipart/form-data; boundary=9f09bf1a65834e158de2fb00562c262f'}
+Request body: <MultipartEncoder: {'name': 'Сурик', 'animal_type': 'кот', 'age': '1', 'pet_photo': ('/home/user/PycharmProjects/PetFriendAutoTestFix/tests/../images/111.jpeg', <_io.BufferedReader name='/home/user/PycharmProjects/PetFriendAutoTestFix/tests/../images/111.jpeg'>, 'image/jpeg')}>
+============= Response =============
+Code of answer to response - [200]
+Response body: {'_id': '', 'age': '1', 'animal_type': 'кот', 'created_at': '1671433929.5185707', 'id': '71d36e2f-c535-438f-8dfd-214c20ad1ab8', 'name': 'Сурик', 'pet_photo': 'data:image/jpeg;base64', 'user_id': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing POST request to https://petfriends.skillfactory.ru/api/pets/set_photo/71d36e2f-c535-438f-8dfd-214c20ad1ab8
+Headers of request: {'auth_key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655', 'Content-Type': 'multipart/form-data; boundary=2070694e089643818d4c6df0fbc68361'}
+Request body: <MultipartEncoder: {'pet_id': '71d36e2f-c535-438f-8dfd-214c20ad1ab8', 'pet_photo': ('/home/user/PycharmProjects/PetFriendAutoTestFix/tests/../images/111.jpeg', <_io.BufferedReader name='/home/user/PycharmProjects/PetFriendAutoTestFix/tests/../images/111.jpeg'>, 'image/jpeg')}>
+============= Response =============
+Code of answer to response - [200]
+Response body: {'_id': '', 'age': '1', 'animal_type': 'кот', 'created_at': '1671433929.5185707', 'id': '71d36e2f-c535-438f-8dfd-214c20ad1ab8', 'name': 'Сурик', 'pet_photo': 'data:image/jpeg;base64', 'user_id': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing GET request to https://petfriends.skillfactory.ru/api/key
+Query parameter is not provided.
+Headers of request: {'email': 'kanabis_5@ka.bis', 'password': '1234567890'}
+============= Response =============
+Code of answer to response - <Response [200]>
+response body: {'key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing POST request to https://petfriends.skillfactory.ru/api/pets
+Headers of request: {'auth_key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655', 'Content-Type': 'multipart/form-data; boundary=089bdc065f3f456d908bf4baca236993'}
+Request body: <MultipartEncoder: {'name': 'Alon', 'animal_type': 'Creep', 'age': '3', 'pet_photo': ('/home/user/PycharmProjects/PetFriendAutoTestFix/tests/../images/111.jpeg', <_io.BufferedReader name='/home/user/PycharmProjects/PetFriendAutoTestFix/tests/../images/111.jpeg'>, 'image/jpeg')}>
+============= Response =============
+Code of answer to response - [200]
+Response body: {'_id': '', 'age': '3', 'animal_type': 'Creep', 'created_at': '1671433932.4877279', 'id': '756c4b3e-d639-4b42-a7b5-49bc2f654558', 'name': 'Alon', 'pet_photo': 'data:image/jpeg;base64', 'user_id': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing GET request to https://petfriends.skillfactory.ru/api/key
+Query parameter is not provided.
+Headers of request: {'email': 'kanabis_5@ka.bis', 'password': '1234567890'}
+============= Response =============
+Code of answer to response - <Response [200]>
+response body: {'key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing GET request to https://petfriends.skillfactory.ru/api/pets
+Parameters of path: filter=my_pets
+Headers of request: {'auth_key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Response =============
+Code of answer to response - <Response [200]>
+response body: {'pets': [{'age': '3', 'animal_type': 'Creep', 'created_at': '1671433932.4877279', 'id': '756c4b3e-d639-4b42-a7b5-49bc2f654558', 'name': 'Alon', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '1', 'animal_type': 'кот', 'created_at': '1671433929.5185707', 'id': '71d36e2f-c535-438f-8dfd-214c20ad1ab8', 'name': 'Сурик', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '1', 'animal_type': 'python', 'created_at': '1671433927.4886973', 'id': '8752940a-86f8-4333-90a3-33e020d507ad', 'name': 'Maxim', 'pet_photo': ''}, {'age': '3', 'animal_type': 'snake', 'created_at': '1671433904.4518294', 'id': '9ba7f803-cda4-4394-970e-20894517ba6e', 'name': 'Yan', 'pet_photo': ''}, {'age': '1', 'animal_type': 'pop', 'created_at': '1671433901.7879236', 'id': 'bcd3a327-9608-451e-8184-b7aace547f91', 'name': 'Пес', 'pet_photo': ''}, {'age': '2', 'animal_type': 'шуршунчик', 'created_at': '1671433889.418857', 'id': '28add192-a10d-4793-991c-ff6e744a7967', 'name': 'Фуфырик', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '1', 'animal_type': 'кот', 'created_at': '1671433886.479129', 'id': '6c62429c-ddf5-4ccc-9779-55508f51cdd3', 'name': 'Сурик', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '1', 'animal_type': 'python', 'created_at': '1671433884.8002346', 'id': '577de906-c316-4ef9-91f4-70f8d775e1a0', 'name': 'Maxim', 'pet_photo': ''}, {'age': '3', 'animal_type': 'snake', 'created_at': '1671433823.5045352', 'id': '274c6c62-a4ff-4983-b481-9d12c4763813', 'name': 'Yan', 'pet_photo': ''}, {'age': '2', 'animal_type': 'шуршунчик', 'created_at': '1671433809.7362475', 'id': '2ad1e3c2-a14f-4a44-9bad-ea40956a336a', 'name': 'Фуфырик', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '1', 'animal_type': 'кот', 'created_at': '1671433806.3922482', 'id': '0151d31f-c4ee-423b-a3c0-593138e19643', 'name': 'Сурик', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '1', 'animal_type': 'python', 'created_at': '1671433804.567119', 'id': '01033b4d-6375-4ae8-bfbb-25f5abd4ed5a', 'name': 'Maxim', 'pet_photo': ''}, {'age': '3', 'animal_type': 'snake', 'created_at': '1671433599.389617', 'id': '0e47af44-6378-4a34-a8e5-2876a3d94a2f', 'name': 'Yan', 'pet_photo': ''}, {'age': '2', 'animal_type': 'шуршунчик', 'created_at': '1671433586.71505', 'id': 'af433336-2a07-47a0-b3fd-01250cb10758', 'name': 'Фуфырик', 'pet_photo': ''}, {'age': '1', 'animal_type': 'pop', 'created_at': '1670633704.4768157', 'id': '8b8e0c5c-fcd9-4e68-86af-723221c0a6c2', 'name': 'Пес', 'pet_photo': ''}, {'age': '3', 'animal_type': 'snake', 'created_at': '1670633588.4979932', 'id': 'eaa8e5f9-ad0e-4b94-9cd7-ccb4b4c6fa22', 'name': 'Yan', 'pet_photo': ''}, {'age': '1', 'animal_type': 'pop', 'created_at': '1670633584.5105243', 'id': 'e02295a6-560e-4d86-8a4a-5373243eaeb9', 'name': 'Пес', 'pet_photo': ''}, {'age': '2', 'animal_type': 'шуршунчик', 'created_at': '1670633572.4821777', 'id': 'be8d1dc3-b442-434c-ab17-3ad5ef8786ac', 'name': 'Фуфырик', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '1', 'animal_type': 'кот', 'created_at': '1670633569.499254', 'id': '9f2335e5-644c-4e16-b179-92227ef82ab5', 'name': 'Сурик', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '10', 'animal_type': 'snake', 'created_at': '1670633567.5023923', 'id': 'b03c4b2a-6449-4ec3-ac05-0f8a1c2066a8', 'name': 'Gidropon', 'pet_photo': ''}, {'age': '3', 'animal_type': 'snake', 'created_at': '1670633424.5003934', 'id': '16ea403a-f215-467f-be60-971d3d768b37', 'name': 'Yan', 'pet_photo': ''}, {'age': '1', 'animal_type': 'pop', 'created_at': '1670633420.509302', 'id': 'f0178ef8-a97c-444c-ae2b-274042875ce8', 'name': 'Пес', 'pet_photo': ''}, {'age': '2', 'animal_type': 'шуршунчик', 'created_at': '1670633408.4645653', 'id': '26f1f217-4828-4ea1-bba8-33de87f1708d', 'name': 'Фуфырик', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '1', 'animal_type': 'кот', 'created_at': '1670633405.5660336', 'id': '10edb58a-0ef8-40a1-b60c-7c6f1055072e', 'name': 'Сурик', 'pet_photo': 'data:image/jpeg;base64'}, {'age': '10', 'animal_type': 'snake', 'created_at': '1670633403.5101964', 'id': 'a5ecbabc-0144-4ecc-9076-c26cf38c8610', 'name': 'Gidropon', 'pet_photo': ''}]}
+============= Request =============
+Doing PUT request to https://petfriends.skillfactory.ru/api/pets/
+Headers of request: {'auth_key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655', 'Content-Type': 'multipart/form-data; boundary=0f8a91fa02804f96bff4af600cca2134'}
+Parameters of request path pet_id: 756c4b3e-d639-4b42-a7b5-49bc2f654558
+Request body: <MultipartEncoder: {'name': 'Фуфырик', 'animal_type': 'шуршунчик', 'age': '2'}>
+============= Response =============
+Code of answer to response - <Response [200]>
+Response body: {'age': '2', 'animal_type': 'шуршунчик', 'created_at': '1671433932.4877279', 'id': '756c4b3e-d639-4b42-a7b5-49bc2f654558', 'name': 'Фуфырик', 'pet_photo': 'data:image/jpeg;base64', 'user_id': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing GET request to https://petfriends.skillfactory.ru/api/key
+Query parameter is not provided.
+Headers of request: {'email': 'kanabis_5@ka.bis', 'password': '1234567890'}
+============= Response =============
+Code of answer to response - <Response [200]>
+response body: {'key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing POST request to https://petfriends.skillfactory.ru/api/pets
+Headers of request: {'auth_key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655', 'Content-Type': 'multipart/form-data; boundary=c0162ca15a0e452f9c8884ff2735a726'}
+Request body: <MultipartEncoder: {'name': 'Puzik', 'animal_type': 'cat', 'age': '1', 'pet_photo': ('/home/user/PycharmProjects/PetFriendAutoTestFix/tests/../images/111.jpeg', <_io.BufferedReader name='/home/user/PycharmProjects/PetFriendAutoTestFix/tests/../images/111.jpeg'>, 'image/jpeg')}>
+============= Response =============
+Code of answer to response - [200]
+Response body: {'_id': '', 'age': '1', 'animal_type': 'cat', 'created_at': '1671433937.5337503', 'id': '16786adc-31c7-4a92-95f4-e86fd9c0fa62', 'name': 'Puzik', 'pet_photo': 'data:image/jpeg;base64', 'user_id': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+Doing DELETE response to https://petfriends.skillfactory.ru/api/pets/
+Headers of request: {'auth_key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+Parameter of path request pet_id: 16786adc-31c7-4a92-95f4-e86fd9c0fa62
+Code of answer to request- <Response [200]>
+============= Request =============
+Doing GET request to https://petfriends.skillfactory.ru/api/key
+Query parameter is not provided.
+Headers of request: {'email': '66666666666666666@6666666.1', 'password': '1234567890'}
+============= Response =============
+Code of answer to response - <Response [403]>
+Response body: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>403 Forbidden</title>
+<h1>Forbidden</h1>
+<p>This user wasn&#x27;t found in database</p>
+
+============= Request =============
+Doing GET request to https://petfriends.skillfactory.ru/api/key
+Query parameter is not provided.
+Headers of request: {'email': 'kanabis_5@ka.bis', 'password': '1234567890'}
+============= Response =============
+Code of answer to response - <Response [200]>
+response body: {'key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing POST request to https://petfriends.skillfactory.ru/api/create_pet_simple
+Headers of request: {'auth_key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655', 'Content-Type': 'multipart/form-data; boundary=802d2ea6c9a14aaf868c9edc4bb499d5'}
+Request body: <MultipartEncoder: {'name': 'Grundik', 'age': '5'}>
+============= Response =============
+Code of answer to response - [400]
+============= Request =============
+Doing POST request to https://petfriends.skillfactory.ru/api/create_pet_simple
+Headers of request: {'auth_key': 'Invalid_user', 'Content-Type': 'multipart/form-data; boundary=141660a4d6ce4a2fb683c4d8c82c539e'}
+Request body: <MultipartEncoder: {'name': 'Lolik', 'animal_type': 'Слон', 'age': '4'}>
+============= Response =============
+Code of answer to response - [403]
+============= Request =============
+Doing GET request to https://petfriends.skillfactory.ru/api/key
+Query parameter is not provided.
+Headers of request: {'email': 'kanabis_5@ka.bis', 'password': '1234567890'}
+============= Response =============
+Code of answer to response - <Response [200]>
+response body: {'key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing POST request to https://petfriends.skillfactory.ru/api/pets
+Headers of request: {'auth_key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655', 'Content-Type': 'multipart/form-data; boundary=ee3d4ade48194c58be1b724e4eae91c3'}
+Request body: <MultipartEncoder: {'name': 'Пес', 'animal_type': 'pop', 'age': '1', 'pet_photo': ('/home/user/PycharmProjects/PetFriendAutoTestFix/tests/../images/radm.pp', <_io.BufferedReader name='/home/user/PycharmProjects/PetFriendAutoTestFix/tests/../images/radm.pp'>, 'image/jpeg')}>
+============= Response =============
+Code of answer to response - [200]
+Response body: {'_id': '', 'age': '1', 'animal_type': 'pop', 'created_at': '1671433945.7715518', 'id': 'cf24cf70-baff-4c5a-adc3-924e6e34333f', 'name': 'Пес', 'pet_photo': '', 'user_id': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing POST request to https://petfriends.skillfactory.ru/api/pets
+Headers of request: {'auth_key': 'Invalid_user', 'Content-Type': 'multipart/form-data; boundary=5301a2dd11ae4cc38a49cd410272dd1e'}
+Request body: <MultipartEncoder: {'name': 'LLLo', 'animal_type': 'nitka', 'age': '1', 'pet_photo': ('/home/user/PycharmProjects/PetFriendAutoTestFix/tests/../images/111.jpeg', <_io.BufferedReader name='/home/user/PycharmProjects/PetFriendAutoTestFix/tests/../images/111.jpeg'>, 'image/jpeg')}>
+============= Response =============
+Code of answer to response - [403]
+============= Request =============
+Doing GET request to https://petfriends.skillfactory.ru/api/key
+Query parameter is not provided.
+Headers of request: {'email': 'kanabis_5@ka.bis', 'password': '1234567890'}
+============= Response =============
+Code of answer to response - <Response [200]>
+response body: {'key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing POST request to https://petfriends.skillfactory.ru/api/create_pet_simple
+Headers of request: {'auth_key': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655', 'Content-Type': 'multipart/form-data; boundary=1c9a0590e719440583f73aa1491933a8'}
+Request body: <MultipartEncoder: {'name': 'Yan', 'animal_type': 'snake', 'age': '3'}>
+============= Response =============
+Code of answer to response - [200]
+Response body: {'_id': '', 'age': '3', 'animal_type': 'snake', 'created_at': '1671433948.573177', 'id': '74866b53-5d66-48c4-9720-5dc6eb95c194', 'name': 'Yan', 'pet_photo': '', 'user_id': 'aff1ca83a15c65892c680df21529c466055668a7da2a2fcae335d655'}
+============= Request =============
+Doing POST request to https://petfriends.skillfactory.ru/api/pets/set_photo/74866b53-5d66-48c4-9720-5dc6eb95c194
+Headers of request: {'auth_key': 'Invalid_user', 'Content-Type': 'multipart/form-data; boundary=3ff7f6adffba4ca88f90ae93b8fdb149'}
+Request body: <MultipartEncoder: {'pet_id': '74866b53-5d66-48c4-9720-5dc6eb95c194', 'pet_photo': ('/home/user/PycharmProjects/PetFriendAutoTestFix/tests/../images/pes1.jpg', <_io.BufferedReader name='/home/user/PycharmProjects/PetFriendAutoTestFix/tests/../images/pes1.jpg'>, 'image/jpeg')}>
+============= Response =============
+Code of answer to response - [403]
